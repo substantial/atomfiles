@@ -1,8 +1,9 @@
 # Substantial's Atom Config
 
+## Installation instructions
+
 If you don't have it already, [download the Atom editor](https://atom.io/)
 
-## Installation instructions
 
 ```bash
 $ cd ~
