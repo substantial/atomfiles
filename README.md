@@ -1,4 +1,11 @@
-# substantial-atom-config
+# Substantial's Atom Config
+
+## Installation instructions
+
+```bash
+$ cd ~
+$ git clone git@github.com:substantial/substantial-atomfiles.git .atom
+```
 
 ## Goal
 
