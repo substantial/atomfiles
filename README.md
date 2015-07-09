@@ -23,7 +23,7 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 * There is no owner. All at Substantial have an equal say in what goes in it.
 * No forks, we should all run off of master. It's ok to use branches to experiment with things.
 * Performance is an important part of the experience and should not be neglected. Poorly performing addons should be optimized or removed.
-* No Vim mode. No Emacs mode. It is good to take inspiration from them, but we should see if we can build something as usable for all without that as a wholesale starting point. Readline keys are great and fine, but we should be sure to keep standard OS X arrow key movements as well.
+* No Vim mode. No Emacs mode. It is good to take inspiration from them, but we should see if we can build something as usable for all without that as a wholesale starting point. [Readline](http://www.catonmat.net/download/readline-emacs-editing-mode-cheat-sheet.pdf) keys are great and fine, but we should be sure to keep standard OS X arrow key movements as well.
 * This config should be usable in all operating systems that Atom supports.
 * It is never done. It should be refined, added to  and optimized indefinitely.
 * Be mindful of the fact that others use this config. If you have good reason to make huge changes, communicate them and seek advice on them. We shouldn't worry about backwards compatability too much, but we should be mindful.
