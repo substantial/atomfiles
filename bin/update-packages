@@ -8,6 +8,11 @@ def main
   packages_txt = parse_package_list(File.read(PACKAGES_TXT))
 
   packages_to_remove(packages_txt, installed).each do |name, _|
+    puts "Found package \"#{name}\" that is not in packages.txt."
+    puts "If you installed this and want to keep it, type \"keep\": "
+    line = readline.chomp
+    next if line == "keep"
+
     system("apm uninstall #{name}")
   end
 
