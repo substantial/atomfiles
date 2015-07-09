@@ -7,6 +7,7 @@ $ cd ~
 # If you have an atom config already:
 $ mv .atom .atom-bak
 $ git clone git@github.com:substantial/substantial-atomfiles.git .atom
+$ cd .atom && bin/update-packages
 ```
 
 ## Goal

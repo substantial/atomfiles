@@ -1,0 +1,3 @@
+linter@1.2.0
+linter-eslint@1.0.18
+
