@@ -23,3 +23,14 @@
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
+
+# window/pane navigation
+'body, atom-workspace atom-text-editor:not([mini])':
+  'cmd-h': 'window:focus-previous-pane'
+  'cmd-l': 'window:focus-next-pane'
+  'cmd-shift-v': 'pane:split-right'
+  'cmd-shift-s': 'pane:split-down'
+  'cmd-shift-h': 'window:focus-pane-on-left'
+  'cmd-shift-l': 'window:focus-pane-on-right'
+  'cmd-shift-k': 'window:focus-pane-above'
+  'cmd-shift-j': 'window:focus-pane-below'
