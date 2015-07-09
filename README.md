@@ -6,10 +6,11 @@ If you don't have it already, [download the Atom editor](https://atom.io/)
 
 
 ```bash
-$ cd ~
+cd ~
 # If you have an atom config already:
-$ mv .atom .atom-bak
-$ git clone git@github.com:substantial/atomfiles.git .atom
+mv .atom .atom-bak
+git clone git@github.com:substantial/atomfiles.git .atom
+cd .atom && bin/update-packages
 ```
 
 ## Goal
@@ -27,3 +28,44 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 * This config should be usable in all operating systems that Atom supports.
 * It is never done. It should be refined, added to  and optimized indefinitely.
 * Be mindful of the fact that others use this config. If you have good reason to make huge changes, communicate them and seek advice on them. We shouldn't worry about backwards compatability too much, but we should be mindful.
+
+## Packages
+
+### How to install a new package
+
+#### Via the command line
+
+1. Install `my-new-package`:
+
+   ```bash
+   ~/.atom/bin/install-package my-new-package
+   ```
+2. Commit the change to `packages.txt` and pull request it.
+
+#### Via the UI
+
+1. Use the Install section of preferences to install a package.
+2. Run:
+
+    ```bash
+    ~/.atom/bin/update-packages
+    ```
+3. Answer "keep" when asked about your package.
+4. Commit the change to `packages.txt` and pull request it.
+
+### How to upgrade packages
+
+1. Use the UI to update packages.
+2. Run:
+
+    ```bash
+    ~/.atom/bin/update-packages
+    ```
+3. Commit the changes to `package.txt` and pull request it.
+
+### Installed
+
+[Linter](https://atom.io/packages/linter) - Enable displaying lint (code style)
+warnings.
+[linter-eslint](https://atom.io/packages/linter-eslint) - Linter plugin for
+[eslint](https://atom.io/packages/linter-eslint)

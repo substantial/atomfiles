@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+apm install $1
+apm list --installed --bare > ~/.atom/packages.txt
