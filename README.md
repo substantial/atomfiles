@@ -27,3 +27,10 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 * This config should be usable in all operating systems that Atom supports.
 * It is never done. It should be refined, added to  and optimized indefinitely.
 * Be mindful of the fact that others use this config. If you have good reason to make huge changes, communicate them and seek advice on them. We shouldn't worry about backwards compatability too much, but we should be mindful.
+
+## Packages
+
+[Linter](https://atom.io/packages/linter) - Enable displaying lint (code style)
+warnings.
+[linter-eslint](https://atom.io/packages/linter-eslint) - Linter plugin for
+[eslint](https://atom.io/packages/linter-eslint)
