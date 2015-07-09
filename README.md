@@ -9,7 +9,7 @@ If you don't have it already, [download the Atom editor](https://atom.io/)
 $ cd ~
 # If you have an atom config already:
 $ mv .atom .atom-bak
-$ git clone git@github.com:substantial/substantial-atomfiles.git .atom
+$ git clone git@github.com:substantial/atomfiles.git .atom
 ```
 
 ## Goal
