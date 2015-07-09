@@ -7,6 +7,10 @@ def main
   installed = parse_package_list(`apm list --installed --bare`)
   packages_txt = parse_package_list(File.read(PACKAGES_TXT))
 
+  packages_to_remove(packages_txt, installed).each do |name, _|
+    system("apm uninstall #{name}")
+  end
+
   # Install only updated or missing packages
   packages_to_install(packages_txt, installed).each do |name, version|
     system("apm install #{name}@#{version}")
@@ -16,6 +20,10 @@ def main
   `apm list --installed --bare > #{PACKAGES_TXT}`
 
   puts "Done!"
+end
+
+def packages_to_remove(packages_txt, installed)
+  installed.reject { |name, _| packages_txt.key?(name) }
 end
 
 def packages_to_install(packages_txt, installed)
