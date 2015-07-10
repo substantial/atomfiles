@@ -25,15 +25,18 @@
 # https://github.com/bevry/cson#what-is-cson
 
 # window/pane navigation
-'body, atom-workspace atom-text-editor:not([mini])':
-  'cmd-h': 'window:focus-previous-pane'
-  'cmd-l': 'window:focus-next-pane'
-  'cmd-shift-v': 'pane:split-right'
-  'cmd-shift-s': 'pane:split-down'
-  'cmd-shift-h': 'window:focus-pane-on-left'
-  'cmd-shift-l': 'window:focus-pane-on-right'
-  'cmd-shift-k': 'window:focus-pane-above'
-  'cmd-shift-j': 'window:focus-pane-below'
+'body, atom-text-editor':
+  'alt-p': 'window:focus-previous-pane'
+  'alt-n': 'window:focus-next-pane'
+  'alt-å': 'window:focus-next-pane' # this is how os x sends alt-n
+  'cmd-k cmd-h': 'pane:split-left'
+  'cmd-k cmd-j': 'pane:split-down'
+  'cmd-k cmd-k': 'pane:split-up'
+  'cmd-k cmd-l': 'pane:split-right'
+  'alt-h': 'window:focus-pane-on-left'
+  'alt-l': 'window:focus-pane-on-right'
+  'alt-k': 'window:focus-pane-above'
+  'alt-j': 'window:focus-pane-below'
 
 'atom-text-editor':
   # expand-region
