@@ -78,4 +78,3 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
   * `ctrl-shift-s` - Shrink selection
 * [language-haml](https://atom.io/packages/language-haml) - HAML support
 * [react](https://atom.io/packages/language-haml) - React support
-* [language-javascript-jsx](https://atom.io/packages/language-javascript-jsx) - Babel/jsx support
