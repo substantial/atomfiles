@@ -69,3 +69,8 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 warnings.
 [linter-eslint](https://atom.io/packages/linter-eslint) - Linter plugin for
 [eslint](https://atom.io/packages/linter-eslint)
+[expand-region](https://atom.io/packages/expand-region) - Expand selection to
+quotes/braces/brackets/etc.
+
+* `ctrl-s` - Expand selection
+* `ctrl-shift-s` - Shrink selection
