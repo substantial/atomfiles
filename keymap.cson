@@ -24,6 +24,20 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 
+# window/pane navigation
+'body, atom-text-editor':
+  'alt-p': 'window:focus-previous-pane'
+  'alt-n': 'window:focus-next-pane'
+  'alt-å': 'window:focus-next-pane' # this is how os x sends alt-n
+  'cmd-k cmd-h': 'pane:split-left'
+  'cmd-k cmd-j': 'pane:split-down'
+  'cmd-k cmd-k': 'pane:split-up'
+  'cmd-k cmd-l': 'pane:split-right'
+  'alt-h': 'window:focus-pane-on-left'
+  'alt-l': 'window:focus-pane-on-right'
+  'alt-k': 'window:focus-pane-above'
+  'alt-j': 'window:focus-pane-below'
+
 'atom-text-editor':
   # expand-region
   'ctrl-s': 'expand-region:expand'
