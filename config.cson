@@ -7,3 +7,6 @@
     invisibles: {}
   tabs:
     usePreviewTabs: true
+  core: {}
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
