@@ -1,3 +1,4 @@
+expand-region@0.2.2
 linter@1.2.3
 linter-eslint@1.0.18
 

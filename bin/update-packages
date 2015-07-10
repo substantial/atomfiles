@@ -39,11 +39,10 @@ def packages_to_install(packages_txt, installed)
 end
 
 def parse_package_list(list)
-  list.lines
+  Hash[list.lines
     .map(&:strip)
     .reject(&:empty?)
-    .map { |line| parse_package(line.strip) }
-    .to_h
+    .map { |line| parse_package(line.strip) }]
 end
 
 def parse_package(line)

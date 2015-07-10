@@ -34,3 +34,8 @@
   'cmd-shift-l': 'window:focus-pane-on-right'
   'cmd-shift-k': 'window:focus-pane-above'
   'cmd-shift-j': 'window:focus-pane-below'
+
+'atom-text-editor':
+  # expand-region
+  'ctrl-s': 'expand-region:expand'
+  'ctrl-shift-s': 'expand-region:shrink'

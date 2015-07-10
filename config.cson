@@ -3,6 +3,7 @@
     userId: "53c5f869-8a29-d7f5-ef48-bc598612bb8d"
   welcome:
     showOnStartup: false
-  core: {}
   editor:
     invisibles: {}
+  tabs:
+    usePreviewTabs: true
