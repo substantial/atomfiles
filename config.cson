@@ -10,3 +10,4 @@
   core: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
+  react: {}

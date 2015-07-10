@@ -1,5 +1,7 @@
 expand-region@0.2.2
 language-haml@0.21.0
+language-javascript-jsx@0.3.7
 linter@1.2.3
 linter-eslint@2.2.0
+react@0.12.4
 
