@@ -11,3 +11,5 @@
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
   react: {}
+  autosave:
+    enabled: true
