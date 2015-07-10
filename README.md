@@ -76,3 +76,4 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
   quotes/braces/brackets/etc.
   * `ctrl-s` - Expand selection
   * `ctrl-shift-s` - Shrink selection
+* [language-haml](https://atom.io/packages/language-haml) - HAML support
