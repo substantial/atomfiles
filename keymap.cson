@@ -38,6 +38,10 @@
   'alt-k': 'window:focus-pane-above'
   'alt-j': 'window:focus-pane-below'
 
+'.fuzzy-finder atom-text-editor[mini]':
+  'ctrl-v': 'pane:split-right'
+  'ctrl-s': 'pane:split-down'
+
 'atom-text-editor':
   # expand-region
   'ctrl-s': 'expand-region:expand'
