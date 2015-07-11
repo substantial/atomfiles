@@ -1,3 +1,4 @@
+block-travel@1.0.2
 expand-region@0.2.2
 language-haml@0.21.0
 linter@1.2.3

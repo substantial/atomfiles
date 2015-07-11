@@ -26,9 +26,8 @@
 
 # window/pane navigation
 'body, atom-text-editor':
-  'alt-p': 'window:focus-previous-pane'
-  'alt-n': 'window:focus-next-pane'
-  'alt-å': 'window:focus-next-pane' # this is how os x sends alt-n
+  'shift-cmd-k': 'window:focus-previous-pane'
+  'shift-cmd-j': 'window:focus-next-pane'
   'cmd-k cmd-h': 'pane:split-left'
   'cmd-k cmd-j': 'pane:split-down'
   'cmd-k cmd-k': 'pane:split-up'
@@ -62,3 +61,11 @@
   'ctrl-o "': 'expand-region:select-around-double-quotes'
   'ctrl-o `': 'expand-region:select-around-back-ticks'
   'ctrl-o t': 'expand-region:select-around-tags'
+
+  # block-travel
+  'alt-p': 'block-travel:move-up'
+  'alt-n': 'block-travel:move-down'
+  'alt-å': 'block-travel:move-down' # this is how os x sends alt-n sometimes
+  'alt-Å': 'block-travel:move-down' # this is how os x sends alt-n sometimes
+  'alt-shift-p': 'block-travel:select-up'
+  'alt-shift-n': 'block-travel:select-down'
