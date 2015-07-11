@@ -30,7 +30,7 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
   to the same thing (like cmd+t and cmd+p) it is more OK if the less common one
   is overridden.
 * It is never done. It should be refined, added to  and optimized indefinitely.
-* Be mindful of the fact that others use this config. If you have good reason to make huge changes, communicate them and seek advice on them. We shouldn't worry about backwards compatability too much, but we should be mindful.
+* Be mindful of the fact that others use this config. If you have good reason to make huge changes, communicate them and seek advice on them. We shouldn't worry about backwards compatibility too much, but we should be mindful.
 
 ## Packages
 
