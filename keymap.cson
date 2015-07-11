@@ -29,18 +29,22 @@
   'alt-p': 'window:focus-previous-pane'
   'alt-n': 'window:focus-next-pane'
   'alt-å': 'window:focus-next-pane' # this is how os x sends alt-n
-  'cmd-k cmd-h': 'pane:split-left'
-  'cmd-k cmd-j': 'pane:split-down'
-  'cmd-k cmd-k': 'pane:split-up'
-  'cmd-k cmd-l': 'pane:split-right'
-  'alt-h': 'window:focus-pane-on-left'
-  'alt-l': 'window:focus-pane-on-right'
-  'alt-k': 'window:focus-pane-above'
-  'alt-j': 'window:focus-pane-below'
+
+  'cmd-k h': 'pane:split-left'
+  'cmd-k j': 'pane:split-down'
+  'cmd-k k': 'pane:split-up'
+  'cmd-k l': 'pane:split-right'
+
+  'cmd-k cmd-h': 'window:focus-pane-on-left'
+  'cmd-k cmd-j': 'window:focus-pane-below'
+  'cmd-k cmd-k': 'window:focus-pane-above'
+  'cmd-k cmd-l': 'window:focus-pane-on-right'
 
 '.fuzzy-finder atom-text-editor[mini]':
-  'ctrl-v': 'pane:split-right'
-  'ctrl-s': 'pane:split-down'
+  'cmd-k h': 'pane:split-left'
+  'cmd-k j': 'pane:split-down'
+  'cmd-k k': 'pane:split-up'
+  'cmd-k l': 'pane:split-right'
 
 'atom-text-editor':
   # expand-region
