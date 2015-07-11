@@ -41,8 +41,10 @@
   'cmd-k cmd-l': 'window:focus-pane-on-right'
 
 '.fuzzy-finder atom-text-editor[mini]':
-  'ctrl-v': 'pane:split-right'
-  'ctrl-s': 'pane:split-down'
+  'cmd-k h': 'pane:split-left'
+  'cmd-k j': 'pane:split-down'
+  'cmd-k k': 'pane:split-up'
+  'cmd-k l': 'pane:split-right'
 
 'atom-text-editor':
   # expand-region
