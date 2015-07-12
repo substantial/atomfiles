@@ -1,3 +1,4 @@
+block-travel@1.0.2
 advanced-new-file@0.4.3
 advanced-open-file@0.8.0
 color-picker@2.0.10
