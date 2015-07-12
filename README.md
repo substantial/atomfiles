@@ -74,6 +74,10 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 * [advanced-new-file](https://atom.io/packages/advanced-new-file) - A more
   reasonable new file with tab completion.
   * `cmd-opt-n` - Advanced New
+* [color-picker](https://atom.io/packages/color-picker) - Adds a color picker.
+  * `cmd-shift-c` - Pick Color
+* [pigments](https://atom.io/packages/pigments) - Displays colors in projects
+  and files.
 * [Linter](https://atom.io/packages/linter) - Enable displaying lint (code
   style) warnings.
 * [linter-eslint](https://atom.io/packages/linter-eslint) - Linter plugin for
