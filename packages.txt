@@ -1,3 +1,5 @@
+advanced-new-file@0.4.3
+advanced-open-file@0.8.0
 expand-region@0.2.2
 language-haml@0.21.0
 linter@1.2.3
