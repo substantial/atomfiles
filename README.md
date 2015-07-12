@@ -68,6 +68,12 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 
 ### Installed
 
+* [advanced-open-file](https://atom.io/packages/advanced-open-file) - A more
+  reasonable file open with tab completion.
+  * `cmd-opt-o` - Advanced Open
+* [advanced-new-file](https://atom.io/packages/advanced-new-file) - A more
+  reasonable new file with tab completion.
+  * `cmd-opt-n` - Advanced New
 * [Linter](https://atom.io/packages/linter) - Enable displaying lint (code
   style) warnings.
 * [linter-eslint](https://atom.io/packages/linter-eslint) - Linter plugin for
