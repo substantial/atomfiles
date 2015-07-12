@@ -26,6 +26,8 @@
 
 # window/pane navigation
 'body, atom-text-editor':
+  'shift-cmd-y': 'pane:show-next-item'
+  'shift-cmd-h': 'pane:show-previous-item'
   'shift-cmd-k': 'window:focus-previous-pane'
   'shift-cmd-j': 'window:focus-next-pane'
   'cmd-k cmd-h': 'pane:split-left'
