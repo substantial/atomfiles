@@ -13,3 +13,6 @@
   react: {}
   autosave:
     enabled: true
+  "advanced-new-file":
+    showFilesInAutoComplete: true
+    suggestCurrentFilePath: true
