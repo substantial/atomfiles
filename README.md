@@ -34,6 +34,8 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 
 ## Key Bindings
 
+Most of the default Key Bindings are still enabled. Below are custom and particularly important key bindings.
+
 Key | Command
 --- | ---
 **Window Navigation** |
