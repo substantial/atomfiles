@@ -5,6 +5,7 @@
     showOnStartup: false
   editor:
     invisibles: {}
+    fontFamily: " Inconsolata-g, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
   tabs:
     usePreviewTabs: true
   core: {}
