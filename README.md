@@ -53,7 +53,7 @@ Key | Command
 &#x2325;N | Move down to next blank line (&#x21E7; to select)
 **Git** |
 &#x2318;&#x2325;G | Open up atomaitigit panel
-<tab> | Show diff
+`<tab>` | Show diff
 &#x21E7;S | Stage file
 c | commit
 &#x21E7;P | Push to headr
