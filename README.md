@@ -109,7 +109,7 @@ Key | Command
   * `ctrl-i (` - Select inside parens, can use any of: `[{('"<t`
   * `ctrl-o (` - Select around parens, can use any of: `[{('"<t`
 * [language-haml](https://atom.io/packages/language-haml) - HAML support
-* [react](https://atom.io/packages/language-haml) - React support
+* [react](https://atom.io/packages/react) - React support
 * [block-travel](https://atom.io/packages/block-travel) - Move the cursor by code blocks
   * `alt-n` - Scroll down by blocks
   * `alt-p` - Scroll up by blocks
