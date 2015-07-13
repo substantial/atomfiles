@@ -32,6 +32,24 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 * It is never done. It should be refined, added to  and optimized indefinitely.
 * Be mindful of the fact that others use this config. If you have good reason to make huge changes, communicate them and seek advice on them. We shouldn't worry about backwards compatibility too much, but we should be mindful.
 
+## Key Bindings
+
+Key | Command
+--- | ---
+**Window Navigation** |
+&#x21E7;&#x2318;K | Focus Previous Pane
+&#x21E7;&#x2318;J | Focus Next Pane
+**Editing** |
+&#x2318;= | Auto Indent
+**Selecting Text** |
+^S | Expand Region (word, inside parens, etc.)
+^&#x21E7;S | Expand Region (word, inside parens, etc.)
+^I ( | Select inside parentheses (works for `{[<'"`t`)
+^O ( | Select around parentheses (works for `{[<'"`t`)
+**Moving Around** |
+&#x2325;P | Move up to next blank line (&#x21E7; to select)
+&#x2325;N | Move down to next blank line (&#x21E7; to select)
+
 ## Packages
 
 ### How to install a new package
