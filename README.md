@@ -38,7 +38,7 @@ Most of the default Key Bindings are still enabled. Below are custom and particu
 
 Key | Command
 --- | ---
-File Management |
+**File Management** |
 &#x2325;&#x2318;N | Advanced New File
 &#x2325;&#x2318;O | Advanced Open File
 **Window Navigation** |
