@@ -10,4 +10,5 @@ linter@1.2.3
 linter-eslint@2.4.1
 pigments@0.8.4
 react@0.12.4
+tabularize@0.2.4
 
