@@ -62,7 +62,7 @@ Key | Command
 &#x21E5; | Show diff
 &#x21E7;S | Stage file
 c | commit
-&#x21E7;P | Push to headr
+&#x21E7;P | Push to head
 p | Fetch
 r | Refresh
 z | Stash
