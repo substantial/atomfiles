@@ -42,9 +42,13 @@
   'ctrl-s': 'pane:split-down'
 
 'atom-text-editor':
+  'ctrl-g': 'core:cancel'
+  # lazy-motion
+  'ctrl-s': 'lazy-motion:forward'
+  'ctrl-r': 'lazy-motion:backward'
   # expand-region
-  'ctrl-s': 'expand-region:expand'
-  'ctrl-shift-s': 'expand-region:shrink'
+  'cmd-i': 'expand-region:expand'
+  'cmd-shift-i': 'expand-region:shrink'
   'ctrl-i (': 'expand-region:select-inside-parentheses'
   'ctrl-i [': 'expand-region:select-inside-square-brackets'
   'ctrl-i {': 'expand-region:select-inside-curly-brackets'
