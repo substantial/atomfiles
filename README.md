@@ -61,6 +61,7 @@ Key                 | Command
 &#x2318;K &#x2318;D | Select Skip
 &#x2318;U           | Select Undo
 &#x2303;&#x2318;G   | Select All
+&#x21E7;&#x2318;L   | Split Selection into Multiple Cursors
 &nbsp;              |
                     | **Moving Around**
 &#x2325;P           | Move up to next blank line (&#x21E7; to select)
