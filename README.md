@@ -47,14 +47,14 @@ Key                 | Command
 &#x21E7;&#x2318;J   | Focus Next Pane
 &nbsp;              |
                     | **Editing**
-&#x2318;=           | Auto Indent
+&#x2318;I           | Auto Indent
 &#x21E7;&#x2318;C   | Open Color Picker
 &nbsp;              |
                     | **Selecting Text**
 &#x2318;I           | Expand Region (word, inside parens, etc.)
 &#x21E7;&#x2318;I   | Shrink Region (word, inside parens, etc.)
-&#x2303;o (         | Select inside parentheses (works for `{[<'"t`)
-&#x2303;O (         | Select around parentheses (works for `{[<'"t`)
+&#x2303;O (         | Select inside parentheses (works for `{[<'"t`)
+&#x21E7;&#x2303;O (         | Select around parentheses (works for `{[<'"t`)
 &nbsp;              |
                     | **Multiple Cursors**
 &#x2318;D           | Select Next
@@ -73,11 +73,11 @@ Key                 | Command
 &#x2318;&#x2325;G   | Open up atomaitigit panel
 &#x21E5;            | Show diff
 &#x21E7;S           | Stage file
-c                   | commit
+C                   | commit
 &#x21E7;P           | Push to head
-p                   | Fetch
-r                   | Refresh
-z                   | Stash
+P                   | Fetch
+R                   | Refresh
+Z                   | Stash
 &#x21E7;Z           | Stash pop
 
 <!--
