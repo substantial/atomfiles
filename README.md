@@ -47,7 +47,7 @@ Key                 | Command
 &#x21E7;&#x2318;J   | Focus Next Pane
 &nbsp;              |
                     | **Editing**
-&#x2318;=           | Auto Indent
+&#x2303;=           | Auto Indent
 &#x21E7;&#x2318;C   | Open Color Picker
 &nbsp;              |
                     | **Selecting Text**
@@ -70,7 +70,7 @@ Key                 | Command
 &#x2303;R           | Fuzzy Search Reverse
 &nbsp;              |
                     | **Git**
-&#x2318;&#x2325;G   | Open up atomaitigit panel
+&#x2318;&#x2325;G   | Open up atomatigit panel
 &#x21E5;            | Show diff
 &#x21E7;S           | Stage file
 c                   | commit
