@@ -7,8 +7,8 @@ expand-region@0.2.2
 language-haml@0.21.0
 lazy-motion@0.1.3
 linter@1.2.3
-linter-eslint@2.4.1
+linter-eslint@2.4.3
 pigments@0.8.4
-react@0.12.4
+react@0.12.5
 tabularize@0.2.4
 
