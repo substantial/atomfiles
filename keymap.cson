@@ -65,7 +65,11 @@
   'ctrl-o "': 'expand-region:select-around-double-quotes'
   'ctrl-o `': 'expand-region:select-around-back-ticks'
   'ctrl-o t': 'expand-region:select-around-tags'
+  
+  # auto-indent
   'ctrl-=': 'editor:auto-indent'
+  'shift-ctrl-i': 'editor:auto-indent'
+
 
   # block-travel
   'alt-p': 'block-travel:move-up'
