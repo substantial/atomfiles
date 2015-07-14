@@ -53,7 +53,7 @@ Key                 | Command
                     | **Selecting Text**
 &#x2318;I           | Expand Region (word, inside parens, etc.)
 &#x21E7;&#x2318;I   | Shrink Region (word, inside parens, etc.)
-&#x2303;I (         | Select inside parentheses (works for `{[<'"t`)
+&#x2303;o (         | Select inside parentheses (works for `{[<'"t`)
 &#x2303;O (         | Select around parentheses (works for `{[<'"t`)
 &nbsp;              |
                     | **Multiple Cursors**
