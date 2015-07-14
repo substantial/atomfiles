@@ -36,37 +36,56 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 
 Most of the default Key Bindings are still enabled. Below are custom and particularly important key bindings.
 
-Key | Command
---- | ---
- | **File Management**
-&#x2325;&#x2318;N | Advanced New File
-&#x2325;&#x2318;O | Advanced Open File
- | **Window Navigation**
-&#x21E7;&#x2318;K | Focus Previous Pane
-&#x21E7;&#x2318;J | Focus Next Pane
- | **Editing**
-&#x2318;= | Auto Indent
-&#x21E7;&#x2318;C | Open Color Picker
- | **Selecting Text**
-&#x2318;I | Expand Region (word, inside parens, etc.)
-&#x21E7;&#x2318;I | Shrink Region (word, inside parens, etc.)
-^I ( | Select inside parentheses (works for `{[<'"t`)
-^O ( | Select around parentheses (works for `{[<'"t`)
- | **Moving Around**
-&#x2325;P | Move up to next blank line (&#x21E7; to select)
-&#x2325;N | Move down to next blank line (&#x21E7; to select)
-^S | Fuzzy Search Forward
-^R | Fuzzy Search Reverse
- | **Git**
-&#x2318;&#x2325;G | Open up atomaitigit panel
-&#x21E5; | Show diff
-&#x21E7;S | Stage file
-c | commit
-&#x21E7;P | Push to head
-p | Fetch
-r | Refresh
-z | Stash
-&#x21E7;Z | Stash pop
+Key                 | Command
+---                 | ---
+                    | **File Management**
+&#x2325;&#x2318;N   | Advanced New File
+&#x2325;&#x2318;O   | Advanced Open File
+&nbsp;              |
+                    | **Window Navigation**
+&#x21E7;&#x2318;K   | Focus Previous Pane
+&#x21E7;&#x2318;J   | Focus Next Pane
+&nbsp;              |
+                    | **Editing**
+&#x2318;=           | Auto Indent
+&#x21E7;&#x2318;C   | Open Color Picker
+&nbsp;              |
+                    | **Selecting Text**
+&#x2318;I           | Expand Region (word, inside parens, etc.)
+&#x21E7;&#x2318;I   | Shrink Region (word, inside parens, etc.)
+&#x2303;I (         | Select inside parentheses (works for `{[<'"t`)
+&#x2303;O (         | Select around parentheses (works for `{[<'"t`)
+&nbsp;              |
+                    | **Multiple Cursors**
+&#x2318;D           | Select Next
+&#x2318;K &#x2318;D | Select Skip
+&#x2318;U           | Select Undo
+&#x2303;&#x2318;G   | Select All
+&nbsp;              |
+                    | **Moving Around**
+&#x2325;P           | Move up to next blank line (&#x21E7; to select)
+&#x2325;N           | Move down to next blank line (&#x21E7; to select)
+&#x2303;S           | Fuzzy Search Forward
+&#x2303;R           | Fuzzy Search Reverse
+&nbsp;              |
+                    | **Git**
+&#x2318;&#x2325;G   | Open up atomaitigit panel
+&#x21E5;            | Show diff
+&#x21E7;S           | Stage file
+c                   | commit
+&#x21E7;P           | Push to head
+p                   | Fetch
+r                   | Refresh
+z                   | Stash
+&#x21E7;Z           | Stash pop
+
+<!--
+&#x21E7; shift
+&#x2325; opt
+&#x2318; cmd
+&#x2303; ctrl
+&#x21E5; tab
+-->
 
 ## Packages
 
@@ -120,5 +139,6 @@ z | Stash
 * [language-haml](https://atom.io/packages/language-haml) - HAML support
 * [react](https://atom.io/packages/react) - React support
 * [block-travel](https://atom.io/packages/block-travel) - Move the cursor by code blocks
+* [tabularize](https://atom.io/packages/tabularize) - Align code
 * [lazy-motion](https://atom.io/packages/lazy-motion) - Rapid cursor
   positioning w/ fuzzy search.
