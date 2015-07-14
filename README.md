@@ -47,7 +47,7 @@ Key                 | Command
 &#x21E7;&#x2318;J   | Focus Next Pane
 &nbsp;              |
                     | **Editing**
-&#x2203;I           | Auto Indent
+&#x2303;I           | Auto Indent
 &#x21E7;&#x2318;C   | Open Color Picker
 &nbsp;              |
                     | **Selecting Text**
