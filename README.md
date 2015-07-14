@@ -38,26 +38,26 @@ Most of the default Key Bindings are still enabled. Below are custom and particu
 
 Key | Command
 --- | ---
-**File Management** |
+ | **File Management**
 &#x2325;&#x2318;N | Advanced New File
 &#x2325;&#x2318;O | Advanced Open File
-**Window Navigation** |
+ | **Window Navigation**
 &#x21E7;&#x2318;K | Focus Previous Pane
 &#x21E7;&#x2318;J | Focus Next Pane
-**Editing** |
+ | **Editing**
 &#x2318;= | Auto Indent
 &#x21E7;&#x2318;C | Open Color Picker
-**Selecting Text** |
+ | **Selecting Text**
 &#x2318;I | Expand Region (word, inside parens, etc.)
 &#x21E7;&#x2318;I | Shrink Region (word, inside parens, etc.)
 ^I ( | Select inside parentheses (works for `{[<'"t`)
 ^O ( | Select around parentheses (works for `{[<'"t`)
-**Moving Around** |
+ | **Moving Around**
 &#x2325;P | Move up to next blank line (&#x21E7; to select)
 &#x2325;N | Move down to next blank line (&#x21E7; to select)
 ^S | Fuzzy Search Forward
 ^R | Fuzzy Search Reverse
-**Git** |
+ | **Git**
 &#x2318;&#x2325;G | Open up atomaitigit panel
 &#x21E5; | Show diff
 &#x21E7;S | Stage file
