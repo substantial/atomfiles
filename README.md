@@ -52,6 +52,7 @@ Key                 | Command
 &#x21E7;&#x2318;C   | Open Color Picker
 &nbsp;              |
                     | **Selecting Text**
+&#x2318;L           | Select Current Line - Can be repeated to select multiple lines
 &#x2318;I           | Expand Region (word, inside parens, etc.)
 &#x21E7;&#x2318;I   | Shrink Region (word, inside parens, etc.)
 &#x2303;O (         | Select inside parentheses (works for `{[<'"t`)
@@ -66,6 +67,12 @@ Key                 | Command
 &#x2318;Click       | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D 
 &nbsp;              |
                     | **Moving Around**
+&#x2303;F           | Move right
+&#x2303;B           | Move left
+&#x2325;F           | Move to next word
+&#x2325;B           | Move to previous word
+&#x2303;P           | Move up
+&#x2303;N           | Move down
 &#x2325;P           | Move up to next blank line (&#x21E7; to select)
 &#x2325;N           | Move down to next blank line (&#x21E7; to select)
 &#x2303;S           | Fuzzy Search Forward
