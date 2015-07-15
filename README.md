@@ -57,12 +57,13 @@ Key                 | Command
 &#x2303;O (         | Select inside parentheses (works for `{[<'"t`)
 &#x21E7;&#x2303;O ( | Select around parentheses (works for `{[<'"t`)
 &nbsp;              |
-                    | **Multiple Cursors**
-&#x2318;D           | Select Next
-&#x2318;K &#x2318;D | Select Skip
-&#x2318;U           | Select Undo
-&#x2303;&#x2318;G   | Select All
-&#x21E7;&#x2318;L   | Split Selection into Multiple Cursors
+                    | **Multiple Cursors** - If multiple things are selected, you can type to change them all at once. You can also use regular navigation keys to move multiple cursors around at once. This is helpful for making lots of similar changes at once.
+&#x2318;D           | Select Next - First press selects entire word. Next adds next instance of word under cursor to selection
+&#x2318;K &#x2318;D | Skip Selection - After &#x2318;D, if you don't want it but want the next instance
+&#x2318;U           | Undo Select Next
+&#x2303;&#x2318;G   | Select All instances of current word (works w/ File Find too)
+&#x21E7;&#x2318;L   | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting &#x2303;A afterwards to get the cursors to the beginning of the lines
+&#x2318;Click       | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D 
 &nbsp;              |
                     | **Moving Around**
 &#x2325;P           | Move up to next blank line (&#x21E7; to select)
