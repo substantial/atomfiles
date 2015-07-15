@@ -64,7 +64,7 @@ Key                 | Command
 &#x2318;U           | Undo Select Next
 &#x2303;&#x2318;G   | Select All instances of current word (works w/ File Find too)
 &#x21E7;&#x2318;L   | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting &#x2303;A afterwards to get the cursors to the beginning of the lines
-&#x2318;Click       | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D 
+&#x2318;Click       | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D
 &nbsp;              |
                     | **Moving Around**
 &#x2303;F           | Move right
@@ -78,7 +78,10 @@ Key                 | Command
 &#x2303;S           | Fuzzy Search Forward
 &#x2303;R           | Fuzzy Search Reverse
 &nbsp;              |
-                    | **Git**
+                    | **Git (git plus)**
+&#x2318;&#x2318;H   | Open up git plus fuzzy find (try typing 'checkout' to see options)
+                    |
+                    | **Git (atomatigit)**
 &#x2318;&#x2325;G   | Open up atomatigit panel
 &#x21E5;            | Show diff
 &#x21E7;S           | Stage file
