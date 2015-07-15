@@ -18,6 +18,8 @@
   "advanced-new-file":
     showFilesInAutoComplete: true
     suggestCurrentFilePath: true
+
+# c-sharp settings
 ".cs.source":
   editor:
     tabLength: 4
