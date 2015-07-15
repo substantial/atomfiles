@@ -79,7 +79,7 @@ Key                 | Command
 &#x2303;R           | Fuzzy Search Reverse
 &nbsp;              |
                     | **Git (git plus)**
-&#x2318;&#x2318;H   | Open up git plus fuzzy find (try typing 'checkout' to see options)
+&#x21E7;&#x2318;H   | Open up git plus fuzzy find (try typing 'checkout' to see options)
                     |
                     | **Git (atomatigit)**
 &#x2318;&#x2325;G   | Open up atomatigit panel
