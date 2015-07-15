@@ -43,7 +43,6 @@
   'ctrl-s': 'pane:split-down'
 
 'atom-text-editor':
-  'ctrl-g': 'core:cancel'
   # lazy-motion
   'ctrl-s': 'lazy-motion:forward'
   'ctrl-r': 'lazy-motion:backward'
