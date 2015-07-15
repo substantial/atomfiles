@@ -43,6 +43,10 @@ Key                 | Command
 &#x2325;&#x2318;O   | Advanced Open File
 &#x2303;-           | Toggle Tree View
 &nbsp;              |
+                    | **Fuzzy File Finder**
+&#x2303;S           | Open file in horizontal split
+&#x2303;V           | Open file in vertical split
+&nbsp;              |
                     | **Window Navigation**
 &#x21E7;&#x2318;K   | Focus Previous Pane
 &#x21E7;&#x2318;J   | Focus Next Pane
