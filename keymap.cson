@@ -36,6 +36,7 @@
   'alt-l': 'window:focus-pane-on-right'
   'alt-k': 'window:focus-pane-above'
   'alt-j': 'window:focus-pane-below'
+  'ctrl--': 'tree-view:toggle'
 
 '.fuzzy-finder atom-text-editor[mini]':
   'ctrl-v': 'pane:split-right'

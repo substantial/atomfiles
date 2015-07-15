@@ -41,6 +41,7 @@ Key                 | Command
                     | **File Management**
 &#x2325;&#x2318;N   | Advanced New File
 &#x2325;&#x2318;O   | Advanced Open File
+&#x2303;-           | Toggle Tree View
 &nbsp;              |
                     | **Window Navigation**
 &#x21E7;&#x2318;K   | Focus Previous Pane
@@ -54,7 +55,7 @@ Key                 | Command
 &#x2318;I           | Expand Region (word, inside parens, etc.)
 &#x21E7;&#x2318;I   | Shrink Region (word, inside parens, etc.)
 &#x2303;O (         | Select inside parentheses (works for `{[<'"t`)
-&#x21E7;&#x2303;O (         | Select around parentheses (works for `{[<'"t`)
+&#x21E7;&#x2303;O ( | Select around parentheses (works for `{[<'"t`)
 &nbsp;              |
                     | **Multiple Cursors**
 &#x2318;D           | Select Next
