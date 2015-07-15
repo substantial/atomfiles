@@ -1,13 +1,13 @@
 advanced-new-file@0.4.3
-advanced-open-file@0.8.0
+advanced-open-file@0.8.1
 atomatigit@1.5.3
 block-travel@1.0.2
 color-picker@2.0.10
 expand-region@0.2.2
 language-haml@0.21.0
-lazy-motion@0.1.7
+lazy-motion@0.1.9
 linter@1.2.3
-linter-eslint@2.4.3
+linter-eslint@3.0.0
 pigments@0.8.4
 react@0.12.5
 tabularize@0.2.4
