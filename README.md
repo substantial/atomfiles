@@ -44,6 +44,7 @@ Key                 | Command
 &#x2303;-           | Toggle Tree View
 &nbsp;              |
                     | **Fuzzy File Finder**
+&#x2318;P           | Open Fuzzy File Finder
 &#x2303;S           | Open file in horizontal split
 &#x2303;V           | Open file in vertical split
 &nbsp;              |
