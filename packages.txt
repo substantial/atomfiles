@@ -6,8 +6,8 @@ color-picker@2.0.10
 expand-region@0.2.2
 git-plus@5.2.2
 language-haml@0.21.0
-lazy-motion@0.1.9
-linter@1.2.3
+lazy-motion@0.1.10
+linter@1.2.4
 linter-eslint@3.0.0
 pigments@0.8.4
 react@0.12.5
