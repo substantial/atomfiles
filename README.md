@@ -2,7 +2,7 @@
 
 ## Installation instructions
 
-If you don't have it already, [download and run the Atom editor](https://atom.io/)
+If you don't have it already, [download the Atom editor](https://atom.io/). Install it, run it at least once and be sure to quit it, then:
 
 
 ```bash
