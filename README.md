@@ -56,17 +56,17 @@ Key                             | Command | Preview
 &#x2303;I                       | Auto Indent |
 &#x21E7;&#x2318;C               | Open Color Picker |
 &nbsp;                          | |
-                                | **Moving Around** |
+                                | **Moving Around** - Most can be combined with &#x21E7; to select text |
 &#x2303;F                       | Move right |
 &#x2303;B                       | Move left |
 &#x2325;F                       | Move to next word |
 &#x2325;B                       | Move to previous word |
 &#x2303;P                       | Move up |
 &#x2303;N                       | Move down |
-&#x2325;P                       | Move up to next blank line (&#x21E7; to select) |
-&#x2325;N                       | Move down to next blank line (&#x21E7; to select) |
-&#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `f` (&#x21E7; to select) |
-&#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `F` (&#x21E7; to select) |
+&#x2325;P                       | Move up to next blank line |
+&#x2325;N                       | Move down to next blank line |
+&#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `f` |
+&#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `F` |
 &#x2325;S                       | Fuzzy Search Forward |
 &#x2325;R                       | Fuzzy Search Reverse |
 &nbsp;                          | |
