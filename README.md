@@ -65,8 +65,8 @@ Key                             | Command | Preview
 &#x2303;N                       | Move down |
 &#x2325;P                       | Move up to next blank line |
 &#x2325;N                       | Move down to next blank line |
-&#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `f` |
-&#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `F` |
+&#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` |
+&#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `T` |
 &#x2325;S                       | Fuzzy Search Forward |
 &#x2325;R                       | Fuzzy Search Reverse |
 &nbsp;                          | |
