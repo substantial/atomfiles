@@ -42,8 +42,10 @@
   'ctrl-v': 'pane:split-right'
   'ctrl-s': 'pane:split-down'
 
-'atom-text-editor':
+'.platform-darwin atom-text-editor.lazy-motion':
   'ctrl-g': 'core:cancel'
+
+'atom-text-editor':
   # lazy-motion
   'alt-s': 'lazy-motion:forward'
   'alt-r': 'lazy-motion:backward'
