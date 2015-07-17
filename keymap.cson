@@ -52,10 +52,6 @@
   'ctrl-r': 'find-and-till:find-backwards'
   'ctrl-shift-s': 'find-and-till:select-find'
   'ctrl-shift-r': 'find-and-till:select-find-backwards'
-  'ctrl-s ctrl-s': 'find-and-till:till'
-  'ctrl-r ctrl-r': 'find-and-till:till-backwards'
-  'ctrl-shift-s ctrl-shift-s': 'find-and-till:select-till'
-  'ctrl-shift-r ctrl-shift-r': 'find-and-till:select-till-backwards'
   # expand-region
   'cmd-i': 'expand-region:expand'
   'cmd-shift-i': 'expand-region:shrink'
