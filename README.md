@@ -65,8 +65,8 @@ Key                             | Command | Preview
 &#x2303;N                       | Move down |
 &#x2325;P                       | Move up to next blank line (&#x21E7; to select) |
 &#x2325;N                       | Move down to next blank line (&#x21E7; to select) |
-&#x2303;S&nbsp;&#x2591;         | Find - Move to right before next &#x2591; on line. |
-&#x2303;R&nbsp;&#x2591;         | Find Backwards - Move to right after previous &#x2591; on line. |
+&#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `f` (&#x21E7; to select) |
+&#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `F` (&#x21E7; to select) |
 &#x2325;S                       | Fuzzy Search Forward |
 &#x2325;R                       | Fuzzy Search Reverse |
 &nbsp;                          | |
@@ -74,8 +74,6 @@ Key                             | Command | Preview
 &#x2318;L                       | Select Current Line - Can be repeated to select multiple lines |
 &#x2318;I                       | Expand Region (word, inside parens, etc.) |
 &#x21E7;&#x2318;I               | Shrink Region (word, inside parens, etc.) |
-&#x21E7;&#x2303;S&nbsp;&#x2591; | Find - Select to right before next &#x2591; on line. |
-&#x21E7;&#x2303;R&nbsp;&#x2591; | Find Backwards - Select to right after previous &#x2591; on line. |
 &#x2303;O&nbsp;(                | Select inside parentheses (works for `{[<'"t`) |
 &#x21E7;&#x2303;O&nbsp;(        | Select around parentheses (works for `{[<'"t`) |
 &nbsp;                          | |
