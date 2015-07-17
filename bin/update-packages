@@ -3,8 +3,12 @@
 PATH = File.expand_path('../..', __FILE__)
 PACKAGES_TXT = File.join(PATH, "packages.txt")
 
+def package_list
+  "apm list --installed --bare --dev false"
+end
+
 def main
-  installed = parse_package_list(`apm list --installed --bare`)
+  installed = parse_package_list(`#{package_list}`)
   packages_txt = parse_package_list(File.read(PACKAGES_TXT))
 
   packages_to_remove(packages_txt, installed).each do |name, _|
@@ -22,7 +26,7 @@ def main
   end
 
   # Write new packages.txt
-  `apm list --installed --bare > #{PACKAGES_TXT}`
+  `#{package_list} > #{PACKAGES_TXT}`
 
   puts "Done!"
 end
