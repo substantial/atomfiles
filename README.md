@@ -36,66 +36,66 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 
 Most of the default Key Bindings are still enabled. Below are custom and particularly important key bindings.
 
-Key                 | Command
----                 | ---
-                    | **File Management**
-&#x2325;&#x2318;N   | Advanced New File
-&#x2325;&#x2318;O   | Advanced Open File
-&#x2303;-           | Toggle Tree View
-&nbsp;              |
-                    | **Fuzzy File Finder**
-&#x2318;P           | Open Fuzzy File Finder
-&#x2303;S           | Open file in horizontal split
-&#x2303;V           | Open file in vertical split
-&nbsp;              |
-                    | **Window Navigation**
-&#x21E7;&#x2318;K   | Focus Previous Pane
-&#x21E7;&#x2318;J   | Focus Next Pane
-&nbsp;              |
-                    | **Editing**
-&#x2303;I           | Auto Indent
-&#x21E7;&#x2318;C   | Open Color Picker
-&nbsp;              |
-                    | **Selecting Text**
-&#x2318;L           | Select Current Line - Can be repeated to select multiple lines
-&#x2318;I           | Expand Region (word, inside parens, etc.)
-&#x21E7;&#x2318;I   | Shrink Region (word, inside parens, etc.)
-&#x2303;O (         | Select inside parentheses (works for `{[<'"t`)
-&#x21E7;&#x2303;O ( | Select around parentheses (works for `{[<'"t`)
-&nbsp;              |
-                    | **Multiple Cursors** - If multiple things are selected, you can type to change them all at once. You can also use regular navigation keys to move multiple cursors around at once. This is helpful for making lots of similar changes at once.
-&#x2318;D           | Select Next - First press selects entire word. Next adds next instance of word under cursor to selection
-&#x2318;K &#x2318;D | Skip Selection - After &#x2318;D, if you don't want it but want the next instance
-&#x2318;U           | Undo Select Next
-&#x2303;&#x2318;G   | Select All instances of current word (works w/ File Find too)
-&#x21E7;&#x2318;L   | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting &#x2303;A afterwards to get the cursors to the beginning of the lines
-&#x2318;Click       | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D
-&nbsp;              |
-                    | **Moving Around**
-&#x2303;F           | Move right
-&#x2303;B           | Move left
-&#x2325;F           | Move to next word
-&#x2325;B           | Move to previous word
-&#x2303;P           | Move up
-&#x2303;N           | Move down
-&#x2325;P           | Move up to next blank line (&#x21E7; to select)
-&#x2325;N           | Move down to next blank line (&#x21E7; to select)
-&#x2303;S           | Fuzzy Search Forward
-&#x2303;R           | Fuzzy Search Reverse
-&nbsp;              |
-                    | **Git (git plus)**
-&#x21E7;&#x2318;H   | Open up git plus fuzzy find (try typing 'checkout' to see options)
-                    |
-                    | **Git (atomatigit)**
-&#x2318;&#x2325;G   | Open up atomatigit panel
-&#x21E5;            | Show diff
-&#x21E7;S           | Stage file
-C                   | commit
-&#x21E7;P           | Push to head
-P                   | Fetch
-R                   | Refresh
-Z                   | Stash
-&#x21E7;Z           | Stash pop
+Key                 | Command | Preview
+---                 | --- | ---
+                    | **File Management** |
+&#x2325;&#x2318;N   | Advanced New File |
+&#x2325;&#x2318;O   | Advanced Open File |
+&#x2303;-           | Toggle Tree View |
+&nbsp;              | |
+                    | **Fuzzy File Finder** |
+&#x2318;P           | Open Fuzzy File Finder |
+&#x2303;S           | Open file in horizontal split |
+&#x2303;V           | Open file in vertical split |
+&nbsp;              | |
+                    | **Window Navigation** |
+&#x21E7;&#x2318;K   | Focus Previous Pane |
+&#x21E7;&#x2318;J   | Focus Next Pane |
+&nbsp;              | |
+                    | **Editing** |
+&#x2303;I           | Auto Indent |
+&#x21E7;&#x2318;C   | Open Color Picker |
+&nbsp;              | |
+                    | **Selecting Text** |
+&#x2318;L           | Select Current Line - Can be repeated to select multiple lines |
+&#x2318;I           | Expand Region (word, inside parens, etc.) |
+&#x21E7;&#x2318;I   | Shrink Region (word, inside parens, etc.) |
+&#x2303;O (         | Select inside parentheses (works for `{[<'"t`) |
+&#x21E7;&#x2303;O ( | Select around parentheses (works for `{[<'"t`) |
+&nbsp;              | |
+                    | **Multiple Cursors** - If multiple things are selected, you can type to change them all at once. You can also use regular navigation keys to move multiple cursors around at once. This is helpful for making lots of similar changes at once. | ![multiple-cursors](https://cloud.githubusercontent.com/assets/8588/8748680/117f7748-2c51-11e5-9366-3280cef0222d.gif)
+&#x2318;D           | Select Next - First press selects entire word. Next adds next instance of word under cursor to selection |
+&#x2318;K &#x2318;D | Skip Selection - After &#x2318;D, if you don't want it but want the next instance |
+&#x2318;U           | Undo Select Next |
+&#x2303;&#x2318;G   | Select All instances of current word (works w/ File Find too) |
+&#x21E7;&#x2318;L   | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting &#x2303;A afterwards to get the cursors to the beginning of the lines |
+&#x2318;Click       | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D |
+&nbsp;              | |
+                    | **Moving Around** |
+&#x2303;F           | Move right |
+&#x2303;B           | Move left |
+&#x2325;F           | Move to next word |
+&#x2325;B           | Move to previous word |
+&#x2303;P           | Move up |
+&#x2303;N           | Move down |
+&#x2325;P           | Move up to next blank line (&#x21E7; to select) |
+&#x2325;N           | Move down to next blank line (&#x21E7; to select) |
+&#x2303;S           | Fuzzy Search Forward |
+&#x2303;R           | Fuzzy Search Reverse |
+&nbsp;              | |
+                    | **Git (git plus)** |
+&#x21E7;&#x2318;H   | Open up git plus fuzzy find (try typing 'checkout' to see options) |
+                    | |
+                    | **Git (atomatigit)** |
+&#x2318;&#x2325;G   | Open up atomatigit panel |
+&#x21E5;            | Show diff |
+&#x21E7;S           | Stage file |
+C                   | commit |
+&#x21E7;P           | Push to head |
+P                   | Fetch |
+R                   | Refresh |
+Z                   | Stash |
+&#x21E7;Z           | Stash pop |
 
 <!--
 &#x21E7; shift
