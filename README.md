@@ -74,7 +74,7 @@ Key                        | Command | Preview
 &#x2318;L                  | Select Current Line - Can be repeated to select multiple lines |
 &#x2318;I                  | Expand Region (word, inside parens, etc.) |
 &#x21E7;&#x2318;I          | Shrink Region (word, inside parens, etc.) |
-&#x21E7;&#x2303;S&nbsp;&#x2591; | Find - Move to right before next **__** on line. |
+&#x21E7;&#x2303;S&nbsp;&#x2591; | Find - Move to right before next &#x2591; on line. |
 &#x21E7;&#x2303;R&nbsp;&#x2591; | Find Backwards - Move to right after previous &#x2591; on line. |
 &#x2303;O&nbsp;(                | Select inside parentheses (works for `{[<'"t`) |
 &#x21E7;&#x2303;O&nbsp;(        | Select around parentheses (works for `{[<'"t`) |
