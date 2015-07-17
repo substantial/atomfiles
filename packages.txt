@@ -4,6 +4,7 @@ atomatigit@1.5.3
 block-travel@1.0.2
 color-picker@2.0.10
 expand-region@0.2.2
+find-and-till@0.2.0
 git-plus@5.2.2
 language-haml@0.21.0
 lazy-motion@0.1.10
