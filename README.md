@@ -65,8 +65,8 @@ Key                        | Command | Preview
 &#x2303;N                  | Move down |
 &#x2325;P                  | Move up to next blank line (&#x21E7; to select) |
 &#x2325;N                  | Move down to next blank line (&#x21E7; to select) |
-&#x2303;S &#x2591;         | Find - Move to right before next &#x2591; on line. |
-&#x2303;R &#x2591;         | Find Backwards - Move to right after previous &#x2591; on line. |
+&#x2303;S&nbsp;&#x2591;         | Find - Move to right before next &#x2591; on line. |
+&#x2303;R&nbsp;&#x2591;         | Find Backwards - Move to right after previous &#x2591; on line. |
 &#x2325;S                  | Fuzzy Search Forward |
 &#x2325;R                  | Fuzzy Search Reverse |
 &nbsp;                     | |
@@ -74,14 +74,14 @@ Key                        | Command | Preview
 &#x2318;L                  | Select Current Line - Can be repeated to select multiple lines |
 &#x2318;I                  | Expand Region (word, inside parens, etc.) |
 &#x21E7;&#x2318;I          | Shrink Region (word, inside parens, etc.) |
-&#x21E7;&#x2303;S &#x2591; | Find - Move to right before next **__** on line. |
-&#x21E7;&#x2303;R &#x2591; | Find Backwards - Move to right after previous &#x2591; on line. |
-&#x2303;O (                | Select inside parentheses (works for `{[<'"t`) |
-&#x21E7;&#x2303;O (        | Select around parentheses (works for `{[<'"t`) |
+&#x21E7;&#x2303;S&nbsp;&#x2591; | Find - Move to right before next **__** on line. |
+&#x21E7;&#x2303;R&nbsp;&#x2591; | Find Backwards - Move to right after previous &#x2591; on line. |
+&#x2303;O&nbsp;(                | Select inside parentheses (works for `{[<'"t`) |
+&#x21E7;&#x2303;O&nbsp;(        | Select around parentheses (works for `{[<'"t`) |
 &nbsp;                     | |
                            | **Multiple Cursors** - If multiple things are selected, you can type to change them all at once. You can also use regular navigation keys to move multiple cursors around at once. This is helpful for making lots of similar changes at once. | ![multiple-cursors](https://cloud.githubusercontent.com/assets/8588/8748680/117f7748-2c51-11e5-9366-3280cef0222d.gif)
 &#x2318;D                  | Select Next - First press selects entire word. Next adds next instance of word under cursor to selection |
-&#x2318;K &#x2318;D        | Skip Selection - After &#x2318;D, if you don't want it but want the next instance |
+&#x2318;K&nbsp;&#x2318;D        | Skip Selection - After &#x2318;D, if you don't want it but want the next instance |
 &#x2318;U                  | Undo Select Next |
 &#x2303;&#x2318;G          | Select All instances of current word (works w/ File Find too) |
 &#x21E7;&#x2318;L          | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting &#x2303;A afterwards to get the cursors to the beginning of the lines |
