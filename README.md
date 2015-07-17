@@ -83,9 +83,9 @@ Key                 | Command | Preview
 &#x2303;S           | Fuzzy Search Forward |
 &#x2303;R           | Fuzzy Search Reverse |
 &nbsp;              | |
-                    | **Git (git plus)** |
+                    | **Git (git plus)** | ![git-plus](https://cloud.githubusercontent.com/assets/12339/8751823/8b38209a-2c64-11e5-8041-aa803b1dd8b6.gif)
 &#x21E7;&#x2318;H   | Open up git plus fuzzy find (try typing 'checkout' to see options) |
-                    | |
+                    |
                     | **Git (atomatigit)** |
 &#x2318;&#x2325;G   | Open up atomatigit panel |
 &#x21E5;            | Show diff |
