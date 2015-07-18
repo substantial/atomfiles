@@ -18,6 +18,11 @@
   "advanced-new-file":
     showFilesInAutoComplete: true
     suggestCurrentFilePath: true
+  "language-babel":
+    babelStage: 1
+    disableWhenNoBabelrcFileInPath: true
+    suppressTranspileOnSaveMessages: true
+    transpileOnSave: false
 ".cs.source":
   editor:
     tabLength: 4
