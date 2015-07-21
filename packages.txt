@@ -1,6 +1,5 @@
 advanced-new-file@0.4.3
 advanced-open-file@0.8.1
-atomatigit@1.5.3
 block-travel@1.0.2
 color-picker@2.0.11
 expand-region@0.2.2
