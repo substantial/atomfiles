@@ -54,6 +54,7 @@ Key                             | Command | Preview
 &nbsp;                          | |
                                 | **Editing** |
 &#x2303;I                       | Auto Indent |
+&#x21E7;&#x2318;'               | Toggle quotes - replace ' with " or vice versa |
 &#x21E7;&#x2318;C               | Open Color Picker |
 &nbsp;                          | |
                                 | **Moving Around** - Most can be combined with &#x21E7; to select text |
