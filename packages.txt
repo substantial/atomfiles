@@ -3,6 +3,7 @@ advanced-open-file@0.8.1
 block-travel@1.0.2
 color-picker@2.0.11
 expand-region@0.2.2
+file-icons@1.5.8
 find-and-till@1.0.2
 foldername-tabs@0.1.4
 git-plus@5.2.2
