@@ -68,6 +68,8 @@ Key                             | Command | Preview
 &#x2325;N                       | Move down to next blank line |
 &#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` |
 &#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `T` |
+&#x2303;8                       | Find next word under cursor, like vim `*` |
+&#x2303;3                       | Find previous word under cursor, like vim `#` |
 &#x2325;S                       | Fuzzy Search Forward |
 &#x2325;R                       | Fuzzy Search Reverse |
 &nbsp;                          | |
