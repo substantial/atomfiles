@@ -4,13 +4,14 @@ block-travel@1.0.2
 color-picker@2.0.11
 expand-region@0.2.2
 find-and-till@1.0.2
+foldername-tabs@0.1.4
 git-plus@5.2.2
 language-babel@0.10.2
 language-haml@0.21.0
 lazy-motion@0.1.11
 linter@1.2.4
-linter-eslint@3.0.0
-pigments@0.8.4
+linter-eslint@3.0.1
+pigments@0.9.0
 react@0.12.5
 tabularize@0.2.4
 toggle-quotes@0.11.0
