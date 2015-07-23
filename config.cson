@@ -14,7 +14,7 @@
     lintOnEdit: false
   react: {}
   autosave:
-    enabled: true
+    enabled: false
   "advanced-new-file":
     showFilesInAutoComplete: true
     suggestCurrentFilePath: true
