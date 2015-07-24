@@ -148,9 +148,7 @@ Z                               | Stash |
 ### Installed
 
 * [advanced-open-file](https://atom.io/packages/advanced-open-file) - A more
-  reasonable file open with tab completion.
-* [advanced-new-file](https://atom.io/packages/advanced-new-file) - A more
-  reasonable new file with tab completion.
+  reasonable file open/new with tab completion.
 * [color-picker](https://atom.io/packages/color-picker) - Adds a color picker.
 * [pigments](https://atom.io/packages/pigments) - Displays colors in projects
   and files.
