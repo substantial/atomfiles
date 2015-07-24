@@ -8,11 +8,11 @@ foldername-tabs@0.1.4
 git-plus@5.2.2
 language-babel@0.10.2
 language-haml@0.21.0
-lazy-motion@0.1.11
+lazy-motion@0.1.13
 linter@1.2.4
 linter-eslint@3.0.1
 pigments@0.9.0
-react@0.12.5
-tabularize@0.2.4
+react@0.12.6
+tabularize@0.2.5
 toggle-quotes@0.11.0
 
