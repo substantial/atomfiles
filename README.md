@@ -164,3 +164,5 @@ Z                               | Stash |
 * [tabularize](https://atom.io/packages/tabularize) - Align code
 * [lazy-motion](https://atom.io/packages/lazy-motion) - Rapid cursor
   positioning w/ fuzzy search.
+* [find-and-till](https://atom.io/packages/find-and-till) - Quickly jump to a
+  character on your current line (like Vim's find and till)
