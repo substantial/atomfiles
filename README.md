@@ -54,6 +54,8 @@ Key                             | Command | Preview
 &nbsp;                          | |
                                 | **Editing** |
 &#x2303;I                       | Auto Indent |
+&#x2303;Y                       | Paste from kill ring (press repeatedly to toggle through things previously copied.) | ![clip-history example](https://raw.githubusercontent.com/t9md/t9md/2453c4abea50741938bce79b9087e4845e8b66d1/img/atom-clip-history.gif)
+&#x21E7;&#x2303;Y               | Paste last thing pasted |
 &#x21E7;&#x2318;'               | Toggle quotes - replace ' with " or vice versa |
 &#x21E7;&#x2318;C               | Open Color Picker |
 &nbsp;                          | |
@@ -166,3 +168,4 @@ Z                               | Stash |
 * [tabularize](https://atom.io/packages/tabularize) - Align code
 * [lazy-motion](https://atom.io/packages/lazy-motion) - Rapid cursor
   positioning w/ fuzzy search.
+* [clip-history](https://atom.io/packages/clip-history) - Paste from clipboard history like emacs' kill-ring

@@ -23,6 +23,7 @@
     disableWhenNoBabelrcFileInPath: true
     suppressTranspileOnSaveMessages: true
     transpileOnSave: false
+  "clip-history": {}
 ".cs.source":
   editor:
     tabLength: 4

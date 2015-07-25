@@ -91,3 +91,7 @@
   'alt-Å': 'block-travel:move-down' # this is how os x sends alt-n sometimes
   'alt-shift-p': 'block-travel:select-up'
   'alt-shift-n': 'block-travel:select-down'
+
+  # clip-history
+  'ctrl-y': 'clip-history:paste'
+  'ctrl-Y': 'clip-history:paste-last'
