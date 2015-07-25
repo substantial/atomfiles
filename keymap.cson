@@ -94,4 +94,4 @@
 
   # clip-history
   'ctrl-y': 'clip-history:paste'
-  'ctrl-Y': 'clip-history:paste-last'
+  'ctrl-shift-y': 'clip-history:paste-last'
