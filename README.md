@@ -169,3 +169,6 @@ Z                               | Stash |
 * [find-and-till](https://atom.io/packages/find-and-till) - Quickly jump to a
   character on your current line (like Vim's find and till)
 * [clip-history](https://atom.io/packages/clip-history) - Paste from clipboard history like emacs' kill-ring
+* [pane-split-moves-tab](https://atom.io/packages/pane-split-moves-tab) -
+  Opening a new split moves the current file to that split instead of
+  duplicating it.
