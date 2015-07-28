@@ -15,9 +15,6 @@
   react: {}
   autosave:
     enabled: false
-  "advanced-new-file":
-    showFilesInAutoComplete: true
-    suggestCurrentFilePath: true
   "language-babel":
     babelStage: 1
     disableWhenNoBabelrcFileInPath: true
