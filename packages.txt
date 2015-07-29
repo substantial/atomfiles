@@ -8,6 +8,7 @@ foldername-tabs@0.1.5
 git-plus@5.2.2
 language-babel@0.10.4
 language-haml@0.21.0
+language-jade@0.6.2
 lazy-motion@0.1.13
 linter@1.2.4
 linter-eslint@3.0.1
