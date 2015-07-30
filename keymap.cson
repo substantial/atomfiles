@@ -46,20 +46,22 @@
 '.platform-darwin atom-text-editor.lazy-motion':
   'ctrl-g': 'core:cancel'
 
-'atom-text-editor':
+'atom-workspace atom-text-editor':
   # Find word under cursor (like * and # in vim)
   'ctrl-8': 'find-and-replace:find-next-selected'
   'ctrl-3': 'find-and-replace:find-previous-selected'
 
   # lazy-motion
-  'alt-s': 'lazy-motion:forward'
-  'alt-r': 'lazy-motion:backward'
+  'ctrl-s': 'lazy-motion:forward'
+  'ctrl-r': 'lazy-motion:backward'
 
   # find-and-till
-  'ctrl-s': 'find-and-till:till'
-  'ctrl-r': 'find-and-till:till-backwards'
-  'ctrl-shift-s': 'find-and-till:select-till'
-  'ctrl-shift-r': 'find-and-till:select-till-backwards'
+  'alt-s': 'find-and-till:till'
+  'alt-r': 'find-and-till:till-backwards'
+  'alt-s alt-s': 'find-and-till:select-till'
+  'alt-r alt-r': 'find-and-till:select-till-backwards'
+  'shift-alt-s': 'find-and-till:select-till'
+  'shift-alt-r': 'find-and-till:select-till-backwards'
 
   # expand-region
   'cmd-i': 'expand-region:expand'
@@ -81,7 +83,10 @@
   'ctrl-shift-o `': 'expand-region:select-around-back-ticks'
   'ctrl-shift-o t': 'expand-region:select-around-tags'
 
-'atom-text-editor:not([mini])':
+'atom-workspace atom-text-editor:not([mini])':
+  # override snippets:available
+  'shift-alt-s': 'find-and-till:select-till'
+
   # auto-indent
   'ctrl-i': 'editor:auto-indent'
 
