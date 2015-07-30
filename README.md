@@ -68,12 +68,12 @@ Key                             | Command | Preview
 &#x2303;N                       | Move down |
 &#x2325;P                       | Move up to next blank line |
 &#x2325;N                       | Move down to next blank line |
-&#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` |
-&#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `T` |
+&#x2325;T&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` |
+&#x2325;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `T` |
 &#x2303;8                       | Find next word under cursor, like vim `*` |
 &#x2303;3                       | Find previous word under cursor, like vim `#` |
-&#x2325;S                       | Fuzzy Search Forward |
-&#x2325;R                       | Fuzzy Search Reverse |
+&#x2303;S                       | Fuzzy Search Forward |
+&#x2303;R                       | Fuzzy Search Reverse |
 &nbsp;                          | |
                                 | **Selecting Text** |
 &#x2318;L                       | Select Current Line - Can be repeated to select multiple lines |
@@ -81,6 +81,8 @@ Key                             | Command | Preview
 &#x21E7;&#x2318;I               | Shrink Region (word, inside parens, etc.) |
 &#x2303;O&nbsp;(                | Select inside parentheses (works for `{[<'"t`) |
 &#x21E7;&#x2303;O&nbsp;(        | Select around parentheses (works for `{[<'"t`) |
+&#x2325;T&#x2325;T&nbsp;&#x2591;| Select to right before next &#x2591; on line, like vim `vt` |
+&#x2325;R&#x2325;R&nbsp;&#x2591;| Select to right after previous &#x2591; on line, like vim `vT` |
 &nbsp;                          | |
                                 | **Multiple Cursors** - If multiple things are selected, you can type to change them all at once. You can also use regular navigation keys to move multiple cursors around at once. This is helpful for making lots of similar changes at once. | ![multiple-cursors](https://cloud.githubusercontent.com/assets/8588/8748680/117f7748-2c51-11e5-9366-3280cef0222d.gif)
 &#x2318;D                       | Select Next - First press selects entire word. Next adds next instance of word under cursor to selection |
