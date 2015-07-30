@@ -96,3 +96,6 @@
   # clip-history
   'ctrl-y': 'clip-history:paste'
   'ctrl-shift-y': 'clip-history:paste-last'
+
+'atom-workspace':
+  'cmd-b': 'recent-files-fuzzy-finder:toggle-finder'
