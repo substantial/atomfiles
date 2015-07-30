@@ -45,6 +45,7 @@ Key                             | Command | Preview
 &nbsp;                          | |
                                 | **Fuzzy File Finder** |
 &#x2318;P                       | Open Fuzzy File Finder |
+&#x2318;B                       | Open Fuzzy File Finder for recently opened files |
 &#x2303;S                       | Open file in horizontal split |
 &#x2303;V                       | Open file in vertical split |
 &nbsp;                          | |
@@ -172,3 +173,5 @@ Z                               | Stash |
 * [pane-split-moves-tab](https://atom.io/packages/pane-split-moves-tab) -
   Opening a new split moves the current file to that split instead of
   duplicating it.
+* [recent-files-fuzzy-finder](https://atom.io/packages/recent-files-fuzzy-finder) -
+  See recently opened files in a Fuzzy Finder dialog
