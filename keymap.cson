@@ -37,6 +37,7 @@
   'alt-k': 'window:focus-pane-above'
   'alt-j': 'window:focus-pane-below'
   'ctrl--': 'tree-view:toggle'
+  'cmd-alt-n': 'advanced-open-file:toggle'
 
 '.fuzzy-finder atom-text-editor[mini]':
   'ctrl-v': 'pane:split-right'
@@ -46,14 +47,20 @@
   'ctrl-g': 'core:cancel'
 
 'atom-text-editor':
+  # Find word under cursor (like * and # in vim)
+  'ctrl-8': 'find-and-replace:find-next-selected'
+  'ctrl-3': 'find-and-replace:find-previous-selected'
+
   # lazy-motion
   'alt-s': 'lazy-motion:forward'
   'alt-r': 'lazy-motion:backward'
+
   # find-and-till
   'ctrl-s': 'find-and-till:till'
   'ctrl-r': 'find-and-till:till-backwards'
   'ctrl-shift-s': 'find-and-till:select-till'
   'ctrl-shift-r': 'find-and-till:select-till-backwards'
+
   # expand-region
   'cmd-i': 'expand-region:expand'
   'cmd-shift-i': 'expand-region:shrink'
@@ -74,9 +81,9 @@
   'ctrl-shift-o `': 'expand-region:select-around-back-ticks'
   'ctrl-shift-o t': 'expand-region:select-around-tags'
 
+'atom-text-editor:not([mini])':
   # auto-indent
   'ctrl-i': 'editor:auto-indent'
-
 
   # block-travel
   'alt-p': 'block-travel:move-up'
@@ -85,3 +92,7 @@
   'alt-Å': 'block-travel:move-down' # this is how os x sends alt-n sometimes
   'alt-shift-p': 'block-travel:select-up'
   'alt-shift-n': 'block-travel:select-down'
+
+  # clip-history
+  'ctrl-y': 'clip-history:paste'
+  'ctrl-shift-y': 'clip-history:paste-last'

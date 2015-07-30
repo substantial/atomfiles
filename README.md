@@ -54,6 +54,8 @@ Key                             | Command | Preview
 &nbsp;                          | |
                                 | **Editing** |
 &#x2303;I                       | Auto Indent |
+&#x2303;Y                       | Paste from kill ring (press repeatedly to toggle through things previously copied.) | ![clip-history example](https://raw.githubusercontent.com/t9md/t9md/2453c4abea50741938bce79b9087e4845e8b66d1/img/atom-clip-history.gif)
+&#x21E7;&#x2303;Y               | Paste last thing pasted |
 &#x21E7;&#x2318;'               | Toggle quotes - replace ' with " or vice versa |
 &#x21E7;&#x2318;C               | Open Color Picker |
 &nbsp;                          | |
@@ -68,6 +70,8 @@ Key                             | Command | Preview
 &#x2325;N                       | Move down to next blank line |
 &#x2303;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` |
 &#x2303;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `T` |
+&#x2303;8                       | Find next word under cursor, like vim `*` |
+&#x2303;3                       | Find previous word under cursor, like vim `#` |
 &#x2325;S                       | Fuzzy Search Forward |
 &#x2325;R                       | Fuzzy Search Reverse |
 &nbsp;                          | |
@@ -146,9 +150,7 @@ Z                               | Stash |
 ### Installed
 
 * [advanced-open-file](https://atom.io/packages/advanced-open-file) - A more
-  reasonable file open with tab completion.
-* [advanced-new-file](https://atom.io/packages/advanced-new-file) - A more
-  reasonable new file with tab completion.
+  reasonable file open/new with tab completion.
 * [color-picker](https://atom.io/packages/color-picker) - Adds a color picker.
 * [pigments](https://atom.io/packages/pigments) - Displays colors in projects
   and files.
@@ -164,3 +166,9 @@ Z                               | Stash |
 * [tabularize](https://atom.io/packages/tabularize) - Align code
 * [lazy-motion](https://atom.io/packages/lazy-motion) - Rapid cursor
   positioning w/ fuzzy search.
+* [find-and-till](https://atom.io/packages/find-and-till) - Quickly jump to a
+  character on your current line (like Vim's find and till)
+* [clip-history](https://atom.io/packages/clip-history) - Paste from clipboard history like emacs' kill-ring
+* [pane-split-moves-tab](https://atom.io/packages/pane-split-moves-tab) -
+  Opening a new split moves the current file to that split instead of
+  duplicating it.
