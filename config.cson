@@ -21,6 +21,8 @@
     suppressTranspileOnSaveMessages: true
     transpileOnSave: false
   "clip-history": {}
+  "file-icons":
+    tabPaneIcon: false
 ".cs.source":
   editor:
     tabLength: 4

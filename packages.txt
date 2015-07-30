@@ -3,6 +3,7 @@ block-travel@1.0.2
 clip-history@0.1.11
 color-picker@2.0.11
 expand-region@0.2.2
+file-icons@1.6.1
 find-and-till@1.0.2
 foldername-tabs@0.1.5
 git-plus@5.2.2
