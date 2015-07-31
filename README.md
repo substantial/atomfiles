@@ -42,6 +42,9 @@ Key                             | Command | Preview
 &#x2325;&#x2318;N               | Advanced New File |
 &#x2325;&#x2318;O               | Advanced Open File |
 &#x2303;-                       | Toggle Tree View |
+&#x2303;X&nbsp;C                | Copy File |
+&#x2303;X&nbsp;M                | Move/Rename File |
+&#x2303;X&nbsp;D                | Delete File |
 &nbsp;                          | |
                                 | **Fuzzy File Finder** |
 &#x2318;P                       | Open Fuzzy File Finder |
@@ -174,3 +177,5 @@ Z                               | Stash |
 * [pane-split-moves-tab](https://atom.io/packages/pane-split-moves-tab) -
   Opening a new split moves the current file to that split instead of
   duplicating it.
+* [quick-file-actions](https://atom.io/packages/quick-file-actions) -
+  Copy/Move/Delete current file quickly.

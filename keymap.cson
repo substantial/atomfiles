@@ -101,3 +101,9 @@
   # clip-history
   'ctrl-y': 'clip-history:paste'
   'ctrl-shift-y': 'clip-history:paste-last'
+
+'atom-workspace':
+  # quick-move-file
+  'ctrl-x c': 'quick-file-actions:copy'
+  'ctrl-x m': 'quick-file-actions:move'
+  'ctrl-x d': 'quick-file-actions:delete'
