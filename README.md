@@ -42,6 +42,9 @@ Key                | Command | Preview
 ⌥⌘N                | Advanced New File |
 ⌥⌘O                | Advanced Open File |
 ⌃-                 | Toggle Tree View |
+⌃X&nbsp;C          | Duplicate File |
+⌃X&nbsp;M          | Move/Rename File |
+⌃X&nbsp;D          | Delete File |
 &nbsp;             | |
                    | **Fuzzy File Finder** |
 ⌘P                 | Open Fuzzy File Finder |

@@ -13,8 +13,6 @@
     disableWhenNoEslintrcFileInPath: true
     lintOnEdit: false
   react: {}
-  autosave:
-    enabled: false
   "language-babel":
     babelStage: 1
     disableWhenNoBabelrcFileInPath: true
