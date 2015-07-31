@@ -13,8 +13,6 @@
     disableWhenNoEslintrcFileInPath: true
     lintOnEdit: false
   react: {}
-  autosave:
-    enabled: false
   "language-babel":
     babelStage: 1
     disableWhenNoBabelrcFileInPath: true
@@ -23,6 +21,8 @@
   "clip-history": {}
   "file-icons":
     tabPaneIcon: false
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
 ".cs.source":
   editor:
     tabLength: 4

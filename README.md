@@ -42,7 +42,7 @@ Key                | Command | Preview
 ⌥⌘N                | Advanced New File |
 ⌥⌘O                | Advanced Open File |
 ⌃-                 | Toggle Tree View |
-⌃X&nbsp;C          | Copy File |
+⌃X&nbsp;C          | Duplicate File |
 ⌃X&nbsp;M          | Move/Rename File |
 ⌃X&nbsp;D          | Delete File |
 &nbsp;             | |
@@ -157,5 +157,3 @@ Key                | Command | Preview
 * [pane-split-moves-tab](https://atom.io/packages/pane-split-moves-tab) -
   Opening a new split moves the current file to that split instead of
   duplicating it.
-* [quick-file-actions](https://atom.io/packages/quick-file-actions) -
-  Copy/Move/Delete current file quickly.
