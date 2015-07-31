@@ -36,82 +36,73 @@ This is an experiment. We want to see if we can build a config that we enjoy tha
 
 Most of the default Key Bindings are still enabled. Below are custom and particularly important key bindings.
 
-Key                             | Command | Preview
----                             | --- | ---
-                                | **File Management** |
-&#x2325;&#x2318;N               | Advanced New File |
-&#x2325;&#x2318;O               | Advanced Open File |
-&#x2303;-                       | Toggle Tree View |
-&nbsp;                          | |
-                                | **Fuzzy File Finder** |
-&#x2318;P                       | Open Fuzzy File Finder |
-&#x2303;S                       | Open file in horizontal split |
-&#x2303;V                       | Open file in vertical split |
-&nbsp;                          | |
-                                | **Window Navigation** |
-&#x21E7;&#x2318;K               | Focus Previous Pane |
-&#x21E7;&#x2318;J               | Focus Next Pane |
-&nbsp;                          | |
-                                | **Editing** |
-&#x2303;I                       | Auto Indent |
-&#x2303;Y                       | Paste from kill ring (press repeatedly to toggle through things previously copied.) | ![clip-history example](https://raw.githubusercontent.com/t9md/t9md/2453c4abea50741938bce79b9087e4845e8b66d1/img/atom-clip-history.gif)
-&#x21E7;&#x2303;Y               | Paste last thing pasted |
-&#x21E7;&#x2318;'               | Toggle quotes - replace ' with " or vice versa |
-&#x21E7;&#x2318;C               | Open Color Picker |
-&nbsp;                          | |
-                                | **Moving Around** - Most can be combined with &#x21E7; to select text |
-&#x2303;F                       | Move right |
-&#x2303;B                       | Move left |
-&#x2325;F                       | Move to next word |
-&#x2325;B                       | Move to previous word |
-&#x2303;P                       | Move up |
-&#x2303;N                       | Move down |
-&#x2325;P                       | Move up to next blank line |
-&#x2325;N                       | Move down to next blank line |
-&#x2325;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` (hold or double tap to select) |
-&#x2325;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `T` (hold or double tap to select) |
-&#x2303;8                       | Find next word under cursor, like vim `*` |
-&#x2303;3                       | Find previous word under cursor, like vim `#` |
-&#x2303;S                       | Fuzzy Search Forward |
-&#x2303;R                       | Fuzzy Search Reverse |
-&nbsp;                          | |
-                                | **Selecting Text** |
-&#x2318;L                       | Select Current Line - Can be repeated to select multiple lines |
-&#x2318;I                       | Expand Region (word, inside parens, etc.) |
-&#x21E7;&#x2318;I               | Shrink Region (word, inside parens, etc.) |
-&#x2303;O&nbsp;(                | Select inside parentheses (works for `{[<'"t`) |
-&#x21E7;&#x2303;O&nbsp;(        | Select around parentheses (works for `{[<'"t`) |
-&#x2325;S&#x2325;S&nbsp;&#x2591;| Select to right before next &#x2591; on line, like vim `vt` |
-&#x2325;R&#x2325;R&nbsp;&#x2591;| Select to right after previous &#x2591; on line, like vim `vT` |
-&nbsp;                          | |
-                                | **Multiple Cursors** - If multiple things are selected, you can type to change them all at once. You can also use regular navigation keys to move multiple cursors around at once. This is helpful for making lots of similar changes at once. | ![multiple-cursors](https://cloud.githubusercontent.com/assets/8588/8748680/117f7748-2c51-11e5-9366-3280cef0222d.gif)
-&#x2318;D                       | Select Next - First press selects entire word. Next adds next instance of word under cursor to selection |
-&#x2318;K&nbsp;&#x2318;D        | Skip Selection - After &#x2318;D, if you don't want it but want the next instance |
-&#x2318;U                       | Undo Select Next |
-&#x2303;&#x2318;G               | Select All instances of current word (works w/ File Find too) |
-&#x21E7;&#x2318;L               | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting &#x2303;A afterwards to get the cursors to the beginning of the lines |
-&#x2318;Click                   | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D |
-&nbsp;                          | |
-                                | **Find and Replace** |
-&#x2318;F                       | Find in File |
-&#x2318;G                       | Find Next in File |
-&#x21E7;&#x2318;G               | Find Previous in File |
-&#x21E7;&#x2318;F               | Find in Project |
-&#x2303;&#x2318;N               | Find Next in Project | ![project-find-navigation](https://cloud.githubusercontent.com/assets/8588/9000934/bc40cda4-3704-11e5-8287-8c5481f09f0f.gif)
-&#x2303;&#x2318;P               | Find Previous in Project |
-&#x21E7;&#x2303;&#x2318;F       | Focus Find in Project Results |
-&nbsp;                          | |
-                                | **Git (git plus)** | ![git-plus](https://cloud.githubusercontent.com/assets/12339/8751823/8b38209a-2c64-11e5-8041-aa803b1dd8b6.gif)
-&#x21E7;&#x2318;H               | Open up git plus fuzzy find (try typing 'checkout' to see options) |
-
-<!--
-&#x21E7; shift
-&#x2325; opt
-&#x2318; cmd
-&#x2303; ctrl
-&#x21E5; tab
-&#x2591; placeholder
--->
+Key                | Command | Preview
+---                | --- | ---
+                   | **File Management** |
+⌥⌘N                | Advanced New File |
+⌥⌘O                | Advanced Open File |
+⌃-                 | Toggle Tree View |
+&nbsp;             | |
+                   | **Fuzzy File Finder** |
+⌘P                 | Open Fuzzy File Finder |
+⌃S                 | Open file in horizontal split |
+⌃V                 | Open file in vertical split |
+&nbsp;             | |
+                   | **Window Navigation** |
+⇧⌘K                | Focus Previous Pane |
+⇧⌘J                | Focus Next Pane |
+&nbsp;             | |
+                   | **Editing** |
+⌃I                 | Auto Indent |
+⌃Y                 | Paste from kill ring (press repeatedly to toggle through things previously copied.) | ![clip-history example](https://raw.githubusercontent.com/t9md/t9md/2453c4abea50741938bce79b9087e4845e8b66d1/img/atom-clip-history.gif)
+⇧⌃Y                | Paste last thing pasted |
+⇧⌘'                | Toggle quotes - replace ' with " or vice versa |
+⇧⌘C                | Open Color Picker |
+&nbsp;             | |
+                   | **Moving Around** - Most can be combined with ⇧ to select text |
+⌃F                 | Move right |
+⌃B                 | Move left |
+⌥F                 | Move to next word |
+⌥B                 | Move to previous word |
+⌃P                 | Move up |
+⌃N                 | Move down |
+⌥P                 | Move up to next blank line |
+⌥N                 | Move down to next blank line |
+⌥S&nbsp;&#x2591;   | Move to right before next &#x2591; on line, like vim `t` (hold or double tap to select) | ![find-and-till](https://cloud.githubusercontent.com/assets/8588/8742523/26480284-2c1b-11e5-86c7-be78a28e6289.gif)
+⌥R&nbsp;&#x2591;   | Move to right after previous &#x2591; on line, like vim `T` (hold or double tap to select) |
+⌃8                 | Find next word under cursor, like vim `*` |
+⌃3                 | Find previous word under cursor, like vim `#` |
+⌃S                 | Fuzzy Search Forward |
+⌃R                 | Fuzzy Search Reverse |
+&nbsp;             | |
+                   | **Selecting Text** |
+⌘L                 | Select Current Line - Can be repeated to select multiple lines |
+⌘I                 | Expand Region (word, inside parens, etc.) |
+⇧⌘I                | Shrink Region (word, inside parens, etc.) |
+⌃O&nbsp;(          | Select inside parentheses (works for `{[<'"t`) |
+⇧⌃O&nbsp;(         | Select around parentheses (works for `{[<'"t`) |
+⌥S⌥S&nbsp;&#x2591; | Select to right before next &#x2591; on line, like vim `vt` |
+⌥R⌥R&nbsp;&#x2591; | Select to right after previous &#x2591; on line, like vim `vT` |
+&nbsp;             | |
+                   | **Multiple Cursors** - If multiple things are selected, you can type to change them all at once. You can also use regular navigation keys to move multiple cursors around at once. This is helpful for making lots of similar changes at once. | ![multiple-cursors](https://cloud.githubusercontent.com/assets/8588/8748680/117f7748-2c51-11e5-9366-3280cef0222d.gif)
+⌘D                 | Select Next - First press selects entire word. Next adds next instance of word under cursor to selection |
+⌘K&nbsp;⌘D         | Skip Selection - After ⌘D, if you don't want it but want the next instance |
+⌘U                 | Undo Select Next |
+⌃⌘G                | Select All instances of current word (works w/ File Find too) |
+⇧⌘L                | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting ⌃A afterwards to get the cursors to the beginning of the lines |
+⌘Click             | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or ⌘D |
+&nbsp;             | |
+                   | **Find and Replace** |
+⌘F                 | Find in File |
+⌘G                 | Find Next in File |
+⇧⌘G                | Find Previous in File |
+⇧⌘F                | Find in Project |
+⌃⌘N                | Find Next in Project | ![project-find-navigation](https://cloud.githubusercontent.com/assets/8588/9000934/bc40cda4-3704-11e5-8287-8c5481f09f0f.gif)
+⌃⌘P                | Find Previous in Project |
+⇧⌃⌘F               | Focus Find in Project Results |
+&nbsp;             | |
+                   | **Git (git plus)** | ![git-plus](https://cloud.githubusercontent.com/assets/12339/8751823/8b38209a-2c64-11e5-8041-aa803b1dd8b6.gif)
+⇧⌘H                | Open up git plus fuzzy find (try typing 'checkout' to see options) |
 
 ## Packages
 
