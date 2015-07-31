@@ -94,17 +94,6 @@ Key                             | Command | Preview
 &nbsp;                          | |
                                 | **Git (git plus)** | ![git-plus](https://cloud.githubusercontent.com/assets/12339/8751823/8b38209a-2c64-11e5-8041-aa803b1dd8b6.gif)
 &#x21E7;&#x2318;H               | Open up git plus fuzzy find (try typing 'checkout' to see options) |
-                                | |
-                                | **Git (atomatigit)** |
-&#x2318;&#x2325;G               | Open up atomatigit panel |
-&#x21E5;                        | Show diff |
-&#x21E7;S                       | Stage file |
-C                               | commit |
-&#x21E7;P                       | Push to head |
-P                               | Fetch |
-R                               | Refresh |
-Z                               | Stash |
-&#x21E7;Z                       | Stash pop |
 
 <!--
 &#x21E7; shift
