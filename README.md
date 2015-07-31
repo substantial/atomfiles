@@ -68,7 +68,7 @@ Key                             | Command | Preview
 &#x2303;N                       | Move down |
 &#x2325;P                       | Move up to next blank line |
 &#x2325;N                       | Move down to next blank line |
-&#x2325;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` (hold or double tap to select) |
+&#x2325;S&nbsp;&#x2591;         | Move to right before next &#x2591; on line, like vim `t` (hold or double tap to select) | ![find-and-till](https://cloud.githubusercontent.com/assets/8588/8742523/26480284-2c1b-11e5-86c7-be78a28e6289.gif)
 &#x2325;R&nbsp;&#x2591;         | Move to right after previous &#x2591; on line, like vim `T` (hold or double tap to select) |
 &#x2303;8                       | Find next word under cursor, like vim `*` |
 &#x2303;3                       | Find previous word under cursor, like vim `#` |
