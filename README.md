@@ -92,6 +92,15 @@ Key                             | Command | Preview
 &#x21E7;&#x2318;L               | Split Selection into Multiple Cursors - Turns a selection of multiple lines into separate selections/multiple cursors. Try hitting &#x2303;A afterwards to get the cursors to the beginning of the lines |
 &#x2318;Click                   | Add Cursor - Good for quickly adding multiple cursors for multiple changes in places that would be tricky with find or &#x2318;D |
 &nbsp;                          | |
+                                | **Find and Replace** |
+&#x2318;F                       | Find in File |
+&#x2318;G                       | Find Next in File |
+&#x21E7;&#x2318;G               | Find Previous in File |
+&#x21E7;&#x2318;F               | Find in Project |
+&#x2303;&#x2318;N               | Find Next in Project | ![project-find-navigation](https://cloud.githubusercontent.com/assets/8588/9000934/bc40cda4-3704-11e5-8287-8c5481f09f0f.gif)
+&#x2303;&#x2318;P               | Find Previous in Project |
+&#x21E7;&#x2303;&#x2318;F       | Focus Find in Project Results |
+&nbsp;                          | |
                                 | **Git (git plus)** | ![git-plus](https://cloud.githubusercontent.com/assets/12339/8751823/8b38209a-2c64-11e5-8041-aa803b1dd8b6.gif)
 &#x21E7;&#x2318;H               | Open up git plus fuzzy find (try typing 'checkout' to see options) |
 
@@ -143,6 +152,8 @@ Key                             | Command | Preview
 * [advanced-open-file](https://atom.io/packages/advanced-open-file) - A more
   reasonable file open/new with tab completion.
 * [color-picker](https://atom.io/packages/color-picker) - Adds a color picker.
+* [project-find-navigation](https://atom.io/packages/project-find-navigation) -
+  Quickly navigate project find
 * [pigments](https://atom.io/packages/pigments) - Displays colors in projects
   and files.
 * [Linter](https://atom.io/packages/linter) - Enable displaying lint (code
