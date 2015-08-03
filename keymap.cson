@@ -109,3 +109,13 @@
   'ctrl-x c': 'tree-view:duplicate'
   'ctrl-x m': 'tree-view:rename'
   'ctrl-x d': 'tree-view:remove'
+
+# project-find-navigation
+'.preview-pane.project-find-navigation':
+  'ctrl-cmd-n': 'project-find-navigation:select-next-and-confirm'
+  'ctrl-cmd-p': 'project-find-navigation:select-prev-and-confirm'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-cmd-n': 'project-find-navigation:next'
+  'ctrl-cmd-p': 'project-find-navigation:prev'
+  'ctrl-cmd-shift-f': 'project-find-navigation:activate-results-pane'

@@ -21,6 +21,8 @@
   "clip-history": {}
   "file-icons":
     tabPaneIcon: false
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
 ".cs.source":
   editor:
     tabLength: 4
