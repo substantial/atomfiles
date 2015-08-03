@@ -42,9 +42,13 @@ Key                | Command | Preview
 ⌥⌘N                | Advanced New File |
 ⌥⌘O                | Advanced Open File |
 ⌃-                 | Toggle Tree View |
+⌃X&nbsp;C          | Duplicate File |
+⌃X&nbsp;M          | Move/Rename File |
+⌃X&nbsp;D          | Delete File |
 &nbsp;             | |
                    | **Fuzzy File Finder** |
 ⌘P                 | Open Fuzzy File Finder |
+⌘B                 | Open Fuzzy File Finder for recently opened files |
 ⌃S                 | Open file in horizontal split |
 ⌃V                 | Open file in vertical split |
 &nbsp;             | |
@@ -165,3 +169,5 @@ Key                | Command | Preview
 * [pane-split-moves-tab](https://atom.io/packages/pane-split-moves-tab) -
   Opening a new split moves the current file to that split instead of
   duplicating it.
+* [recent-files-fuzzy-finder](https://atom.io/packages/recent-files-fuzzy-finder) -
+  See recently opened files in a Fuzzy Finder dialog

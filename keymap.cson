@@ -102,6 +102,14 @@
   'ctrl-y': 'clip-history:paste'
   'ctrl-shift-y': 'clip-history:paste-last'
 
+'atom-workspace':
+  'cmd-b': 'recent-files-fuzzy-finder:toggle-finder'
+
+  # file manipulation
+  'ctrl-x c': 'tree-view:duplicate'
+  'ctrl-x m': 'tree-view:rename'
+  'ctrl-x d': 'tree-view:remove'
+
 # project-find-navigation
 '.preview-pane.project-find-navigation':
   'ctrl-cmd-n': 'project-find-navigation:select-next-and-confirm'
