@@ -83,7 +83,7 @@
   'ctrl-shift-o `': 'expand-region:select-around-back-ticks'
   'ctrl-shift-o t': 'expand-region:select-around-tags'
 
-'atom-workspace atom-text-editor:not([mini])':
+'atom-text-editor:not([mini])':
   # override snippets:available
   'shift-alt-s': 'find-and-till:select-till'
 
