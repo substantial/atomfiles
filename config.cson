@@ -23,6 +23,7 @@
     tabPaneIcon: false
   "find-and-replace":
     openProjectFindResultsInRightPane: true
+  "atom-pair": {}
 ".cs.source":
   editor:
     tabLength: 4
