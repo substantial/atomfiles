@@ -83,7 +83,7 @@
   'ctrl-shift-o `': 'expand-region:select-around-back-ticks'
   'ctrl-shift-o t': 'expand-region:select-around-tags'
 
-'atom-text-editor:not([mini])':
+'atom-workspace atom-text-editor:not([mini])':
   # override snippets:available
   'shift-alt-s': 'find-and-till:select-till'
 
@@ -102,6 +102,11 @@
   'ctrl-y': 'clip-history:paste'
   'ctrl-shift-y': 'clip-history:paste-last'
 
+  # project-find-navigation
+  'ctrl-cmd-n': 'project-find-navigation:next'
+  'ctrl-cmd-p': 'project-find-navigation:prev'
+  'ctrl-cmd-shift-f': 'project-find-navigation:activate-results-pane'
+
 'atom-workspace':
   'cmd-b': 'recent-files-fuzzy-finder:toggle-finder'
 
@@ -114,8 +119,3 @@
 '.preview-pane.project-find-navigation':
   'ctrl-cmd-n': 'project-find-navigation:select-next-and-confirm'
   'ctrl-cmd-p': 'project-find-navigation:select-prev-and-confirm'
-
-'atom-workspace atom-text-editor:not([mini])':
-  'ctrl-cmd-n': 'project-find-navigation:next'
-  'ctrl-cmd-p': 'project-find-navigation:prev'
-  'ctrl-cmd-shift-f': 'project-find-navigation:activate-results-pane'
