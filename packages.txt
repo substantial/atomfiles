@@ -1,4 +1,4 @@
-advanced-open-file@0.8.1
+advanced-open-file@0.8.2
 block-travel@1.0.2
 clip-history@0.1.11
 color-picker@2.0.11
@@ -6,12 +6,12 @@ expand-region@0.2.2
 file-icons@1.6.2
 find-and-till@1.0.2
 foldername-tabs@0.1.5
-git-plus@5.2.2
-language-babel@0.10.4
+git-plus@5.2.3
+language-babel@0.10.5
 language-haml@0.21.0
 language-jade@0.6.2
 lazy-motion@0.1.13
-linter@1.3.0
+linter@1.3.1
 linter-eslint@3.0.2
 pane-split-moves-tab@0.0.2
 pigments@0.9.3
@@ -19,5 +19,5 @@ project-find-navigation@0.0.9
 react@0.12.6
 recent-files-fuzzy-finder@0.1.4
 tabularize@0.2.5
-toggle-quotes@0.11.0
+toggle-quotes@0.11.1
 
