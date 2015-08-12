@@ -55,6 +55,7 @@ Key                | Command | Preview
                    | **Window Navigation** |
 ⇧⌘K                | Focus Previous Pane |
 ⇧⌘J                | Focus Next Pane |
+⌥⌃P                | Toggle automatic pane resizing |
 &nbsp;             | |
                    | **Editing** |
 ⌃I                 | Auto Indent |
@@ -165,9 +166,11 @@ Key                | Command | Preview
   positioning w/ fuzzy search.
 * [find-and-till](https://atom.io/packages/find-and-till) - Quickly jump to a
   character on your current line (like Vim's find and till)
+* [painless-panes](https://atom.io/packages/painless-panes) - Automatically resize panes
 * [clip-history](https://atom.io/packages/clip-history) - Paste from clipboard history like emacs' kill-ring
 * [pane-split-moves-tab](https://atom.io/packages/pane-split-moves-tab) -
   Opening a new split moves the current file to that split instead of
   duplicating it.
 * [recent-files-fuzzy-finder](https://atom.io/packages/recent-files-fuzzy-finder) -
   See recently opened files in a Fuzzy Finder dialog
+
