@@ -83,12 +83,14 @@
   'ctrl-shift-o `': 'expand-region:select-around-back-ticks'
   'ctrl-shift-o t': 'expand-region:select-around-tags'
 
+'atom-text-editor':
+  # auto-indent
+  'ctrl-i': 'editor:auto-indent'
+
 'atom-workspace atom-text-editor:not([mini])':
   # override snippets:available
   'shift-alt-s': 'find-and-till:select-till'
 
-  # auto-indent
-  'ctrl-i': 'editor:auto-indent'
 
   # block-travel
   'alt-p': 'block-travel:move-up'
