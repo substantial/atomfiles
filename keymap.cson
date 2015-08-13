@@ -25,6 +25,9 @@
 # https://github.com/bevry/cson#what-is-cson
 
 # window/pane navigation
+'body':
+  'ctrl-alt-p': 'painless-panes:toggle'
+
 'body, atom-text-editor':
   'shift-cmd-k': 'window:focus-previous-pane'
   'shift-cmd-j': 'window:focus-next-pane'
