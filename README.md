@@ -172,5 +172,7 @@ Key                | Command | Preview
   Opening a new split moves the current file to that split instead of
   duplicating it.
 * [recent-files-fuzzy-finder](https://atom.io/packages/recent-files-fuzzy-finder) -
-  See recently opened files in a Fuzzy Finder dialog
+  See recently opened files in a Fuzzy Finder dialog.
+* [docblockr](https://atom.io/packages/docblockr) -
+  Work within doc blocks like jsdoc.
 
