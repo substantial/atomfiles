@@ -21,6 +21,9 @@
   'Mocha Describe':
     'prefix': 'des'
     'body': 'describe(\'$1\', () => {\n  $2\n});'
+  'Mocha Context':
+    'prefix': 'ctx'
+    'body': 'context(\'$1\', () => {\n  $2\n});'
   'Mocha It':
     'prefix': 'it'
     'body': 'it(\'$1\', () => {\n  $2\n});'
