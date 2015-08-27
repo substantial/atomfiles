@@ -175,4 +175,6 @@ Key                | Command | Preview
   See recently opened files in a Fuzzy Finder dialog.
 * [docblockr](https://atom.io/packages/docblockr) -
   Work within doc blocks like jsdoc.
+* [wallaby](https://atom.io/packages/atom-wallaby) -
+  Instant test runner for javascript http://wallabyjs.com/
 
