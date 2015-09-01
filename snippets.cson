@@ -22,7 +22,7 @@
     'prefix': 'des'
     'body': 'describe(\'$1\', () => {\n  $2\n});'
   'Mocha Context':
-    'prefix': 'ctx'
+    'prefix': 'con'
     'body': 'context(\'$1\', () => {\n  $2\n});'
   'Mocha It':
     'prefix': 'it'
