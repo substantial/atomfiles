@@ -177,4 +177,5 @@ Key                | Command | Preview
   Work within doc blocks like jsdoc.
 * [wallaby](https://atom.io/packages/atom-wallaby) -
   Instant test runner for javascript http://wallabyjs.com/
+* [set-syntax](https://atom.io/packages/set-syntax) - Set file syntax with command palette
 
