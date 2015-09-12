@@ -15,7 +15,7 @@ cd .atom && bin/update-packages
 
 ## Goal
 
-This is an experiment. We want to see if we can build a config that we enjoy that we all feel comfortable and productive in. Currently only a few of us have opted in, but please join and start contributing if you are interested.
+We want to build a config that we enjoy using and that we all feel comfortable and productive in.
 
 ## Tenets
 
