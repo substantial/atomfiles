@@ -33,3 +33,20 @@
   'Mocha afterEach':
     'prefix': 'aft'
     'body': 'afterEach((${1:done}) => {\n  $2\n});'
+
+#
+# Unity / C-Sharp snippets
+#
+'.source.cs':
+  'MonoBehaviour' :
+    'prefix': 'mono'
+    'body': """
+    using UnityEngine;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    public class $1 : MonoBehaviour {
+      $2
+    }
+    """
