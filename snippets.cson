@@ -33,6 +33,41 @@
   'Mocha afterEach':
     'prefix': 'aft'
     'body': 'afterEach((${1:done}) => {\n  $2\n});'
+  'React Component: POC':
+    'prefix': 'rcom'
+    'body': """
+    const React = require(\'react\');
+    const { Component, PropTypes } = React;
+
+    class $1 extends Component {
+      static propTypes = {
+        $2
+      }
+
+      render () {
+        return null;
+      }
+    }
+
+    module.exports = $1;
+    """
+  'React Component Spec: POC':
+    'prefix': 'rcoms'
+    'body': """
+    const React = require(\'react\');
+
+    const $1 = require(\'app/components/$2\');
+
+    describe(\'$1\', () => {
+      function render(props = {}) {
+        return shallowRender(<$1 {...props} />);
+      }
+
+      it('renders', () => {
+        expect(render()).to.not.be.undefined;
+      });
+    });
+    """
 
 #
 # Unity / C-Sharp snippets
