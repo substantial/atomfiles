@@ -40,13 +40,13 @@
     const { Component, PropTypes } = React;
 
     class $1 extends Component {
-      static displayName = '$1'
+      static displayName = '$1';
 
       static propTypes = {
         $2
-      }
+      };
 
-      render () {
+      render() {
         return null;
       }
     }
