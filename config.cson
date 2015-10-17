@@ -24,6 +24,8 @@
   "find-and-replace":
     openProjectFindResultsInRightPane: true
   "painless-panes": {}
+  "fuzzy-finder":
+    searchAllPanes: true
 ".cs.source":
   editor:
     tabLength: 4
