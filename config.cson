@@ -26,6 +26,9 @@
   "painless-panes": {}
   "fuzzy-finder":
     searchAllPanes: true
+    useAlternateScoring: true
+  "autocomplete-plus":
+    useAlternateScoring: true
 ".cs.source":
   editor:
     tabLength: 4
