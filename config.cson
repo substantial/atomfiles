@@ -29,6 +29,12 @@
     useAlternateScoring: true
   "autocomplete-plus":
     useAlternateScoring: true
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+    erlangHome: "/usr/local/Cellar/erlang/18.1/bin"
+  "linter-elixirc":
+    elixircPath: "/usr/local/bin/elixirc"
+    mixPath: "/usr/local/bin/mix"
 ".cs.source":
   editor:
     tabLength: 4
