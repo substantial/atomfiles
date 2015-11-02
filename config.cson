@@ -7,7 +7,7 @@
     invisibles: {}
     fontFamily: " Inconsolata-g, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
   tabs:
-    usePreviewTabs: true
+    usePreviewTabs: false
   core: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
