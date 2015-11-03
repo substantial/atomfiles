@@ -3,7 +3,7 @@ atom-wallaby@1.0.7
 auto-update-packages@1.0.0
 autocomplete-elixir@1.4.2
 block-travel@1.0.2
-clip-history@0.1.11
+clip-history@0.1.12
 color-picker@2.0.13
 docblockr@0.7.3
 expand-region@0.2.3
@@ -12,14 +12,14 @@ find-and-till@1.0.2
 foldername-tabs@0.1.5
 git-plus@5.4.7
 iex@0.9.18
-language-babel@0.15.12
+language-babel@1.0.0
 language-elixir@0.5.2
 language-haml@0.23.4
 language-jade@0.6.2
 lazy-motion@0.1.13
 linter@1.10.0
 linter-elixirc@1.1.0
-linter-eslint@3.2.1
+linter-eslint@4.0.0
 painless-panes@0.1.0
 pane-split-moves-tab@0.0.3
 pigments@0.18.1
