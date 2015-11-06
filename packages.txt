@@ -11,7 +11,6 @@ file-icons@1.6.11
 find-and-till@1.0.2
 foldername-tabs@0.1.5
 git-plus@5.4.7
-iex@0.9.18
 language-babel@1.0.0
 language-elixir@0.5.2
 language-haml@0.23.4
