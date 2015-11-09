@@ -55,8 +55,8 @@
   'ctrl-3': 'find-and-replace:find-previous-selected'
 
   # lazy-motion
-  'ctrl-s': 'lazy-motion:forward'
-  'ctrl-r': 'lazy-motion:backward'
+  'ctrl-s': 'lazy-motion:forward-again'
+  'ctrl-r': 'lazy-motion:backward-again'
 
   # find-and-till
   'alt-s': 'find-and-till:till'
