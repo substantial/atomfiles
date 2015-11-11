@@ -17,7 +17,6 @@ language-haml@0.23.4
 language-jade@0.6.2
 lazy-motion@0.1.13
 linter@1.10.0
-linter-elixirc@1.1.0
 linter-eslint@4.0.0
 painless-panes@0.1.0
 pane-split-moves-tab@0.0.3
