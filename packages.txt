@@ -1,7 +1,6 @@
 advanced-open-file@0.12.3
 atom-wallaby@1.0.7
 auto-update-packages@1.0.0
-autocomplete-elixir@1.4.2
 block-travel@1.0.3
 clip-history@0.1.12
 color-picker@2.0.13
@@ -12,7 +11,6 @@ find-and-till@1.0.2
 foldername-tabs@0.1.5
 git-plus@5.6.5
 language-babel@2.5.0
-language-elixir@0.5.2
 language-haml@0.23.7
 language-jade@0.6.2
 lazy-motion@0.1.13
